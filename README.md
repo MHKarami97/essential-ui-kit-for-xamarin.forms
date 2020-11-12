@@ -5,7 +5,7 @@ This [Essential UI Kit] repository contains elegantly designed XAML templates fo
 <p align="center"> <a href='https://play.google.com/store/apps/details?id=com.syncfusion.xamarin.uikit&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width="150" height="55"/></a> </p>
 
 <p align="center">
-    <img src="Images/xamarin-forms-ui-template.png" alt="Image"/>
+    <img src="Images/xamarin-forms-ui-template.png" alt="Image" width="800" />
 </p>
 
 ## Table of Contents
@@ -51,6 +51,9 @@ We follow the style used by the .NET Foundation, with a few exceptions:
 * We do not prefix internal and private instance fields with `_`, static fields with `s_` and thread static fields with `t_`.
 
 ## Screenshots
+<p align="center">
+    <img src="Images/img.jpg" alt="Image" width="600"/>
+</p>
 <p align="center"> <b> Install the app to preview the templates instantly </b> </p>
 <p align="center"> <a href='https://play.google.com/store/apps/details?id=com.syncfusion.xamarin.uikit&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width="150" height="55"/></a> </p>
 
