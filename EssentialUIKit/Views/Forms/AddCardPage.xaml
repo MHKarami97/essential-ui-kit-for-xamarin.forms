@@ -11,7 +11,7 @@
     xmlns:control="clr-namespace:EssentialUIKit.Controls"
     xmlns:converter="clr-namespace:EssentialUIKit.Converters"
     xmlns:viewModel="clr-namespace:EssentialUIKit.ViewModels.Forms"
-    Title="Add Card"
+    Title="افزودن کارت"
     BackgroundColor="{DynamicResource Gray-100}"
     NavigationPage.HasNavigationBar="False">
 
@@ -68,7 +68,7 @@
                         <Label
                             FontFamily="{StaticResource TeshrinMedium}"
                             FontSize="12"
-                            Text="Card Number"
+                            Text="شماره کارت"
                             TextColor="{DynamicResource Gray-800}" />
 
                         <!--  Card number entry and card image  -->
@@ -135,7 +135,7 @@
                                 Grid.Column="0"
                                 FontFamily="{StaticResource TeshrinMedium}"
                                 FontSize="12"
-                                Text="Expire Date"
+                                Text="تاریخ منقضی شدن"
                                 TextColor="{DynamicResource Gray-800}" />
 
                             <Label
@@ -143,7 +143,7 @@
                                 Grid.Column="1"
                                 FontFamily="{StaticResource TeshrinMedium}"
                                 FontSize="12"
-                                Text="CVV"
+                                Text="سی وی وی"
                                 TextColor="{DynamicResource Gray-800}" />
 
                             <!--  Combobox with calendar to pick the expire date of the card  -->
@@ -192,7 +192,7 @@
                         <Label
                             FontFamily="{StaticResource TeshrinMedium}"
                             FontSize="12"
-                            Text="Name on Card"
+                            Text="نام کارت"
                             TextColor="{DynamicResource Gray-800}" />
 
                         <!--  Entry for card holder name  -->
@@ -220,7 +220,7 @@
                             FontFamily="{StaticResource TeshrinMedium}"
                             FontSize="16"
                             IsChecked="{Binding IsChecked}"
-                            Text="Save this card"
+                            Text="ذخیره این کارت"
                             TextColor="{DynamicResource Gray-900}"
                             VerticalOptions="Center" />
 
@@ -234,7 +234,7 @@
                     CommandParameter="{Binding .}"
                     HorizontalOptions="Center"
                     Style="{StaticResource SfButtonStyle}"
-                    Text="ADD CARD"
+                    Text="افزودن کارت"
                     WidthRequest="245" />
 
             </Grid>

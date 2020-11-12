@@ -31,7 +31,7 @@
     <ContentPage.Content>
         <ScrollView>
             <StackLayout Padding="16">
-                <Label Style="{StaticResource HeaderLabelStyle}" Text="General Information" />
+                <Label Style="{StaticResource HeaderLabelStyle}" Text="اطلاعات کلی" />
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition />
@@ -107,7 +107,7 @@
                 <Label
                     Margin="0,16,0,0"
                     Style="{StaticResource HeaderLabelStyle}"
-                    Text="Contact Information" />
+                    Text="اطلاعات تماس" />
                 <local:ContactEmailEntry /> 
                
                 <border:SfBorder BorderColor="{Binding Source={x:Reference AddressEntry}, Path=IsFocused, Converter={StaticResource ColorConverter}, ConverterParameter=3}" Style="{StaticResource FormBorderStyle}">

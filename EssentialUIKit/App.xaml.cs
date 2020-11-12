@@ -37,7 +37,7 @@ namespace EssentialUIKit
             // this.MainPage = new AppShell();
             this.MainPage = new NavigationPage(new HomePage());
 
-            AppSettings.Instance.EnableRTL = true;
+            //AppSettings.Instance.EnableRTL = true;
             AppSettings.Instance.SelectedPrimaryColor = 2;
         }
 

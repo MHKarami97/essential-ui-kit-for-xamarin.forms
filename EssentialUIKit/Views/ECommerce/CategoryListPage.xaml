@@ -28,7 +28,7 @@
             <StackLayout Spacing="0">
 
                 <!--  Title View  -->
-                <controls:TitleView Title="Categories">
+                <controls:TitleView Title="دسته بندی ها">
                     <controls:TitleView.TrailingView>
                         <StackLayout HorizontalOptions="End" Orientation="Horizontal">
                             <buttons:SfButton

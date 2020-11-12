@@ -11,7 +11,7 @@
     xmlns:gradient="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
     xmlns:local="clr-namespace:EssentialUIKit.Views.Forms"
     xmlns:viewModel="clr-namespace:EssentialUIKit.ViewModels.Forms"
-    Title="Sign Up"
+    Title="عضویت"
     BackgroundImageSource="{core:OnPlatformOrientationStringValue Default=LoginBackground.png,
                                                                   iOSPhoneLandscape=LoginBackground-Landscape.png,
                                                                   iOSTabletLandscape=LoginBackground-Landscape.png}"
@@ -73,7 +73,7 @@
                             FontFamily="{StaticResource TeshrinMedium}"
                             HorizontalTextAlignment="Center"
                             Style="{StaticResource LabelStyle}"
-                            Text="Create an account to start doing more" />
+                            Text="لطفا یک اکانت برای استفاده کامل از امکانات اپلیکیشن ایجاد کنید" />
 
                         <!--  Entry to get username from user  -->
                         <border:SfBorder BorderColor="{Binding Source={x:Reference NameEntry}, Path=IsFocused, Converter={StaticResource ColorConverter}, ConverterParameter=0}" Style="{StaticResource SfBorderStyle}">
@@ -129,19 +129,19 @@
                                 Phone="0" />
                         </StackLayout.Padding>
 
-                        <Label
-                            FontFamily="{StaticResource TeshrinMedium}"
-                            HorizontalOptions="CenterAndExpand"
-                            HorizontalTextAlignment="Center"
-                            Style="{StaticResource LabelStyle}"
-                            Text="Already have an account?"
-                            VerticalTextAlignment="Center" />
-
                         <buttons:SfButton
                             Command="{Binding LoginCommand}"
                             CornerRadius="4"
                             Style="{StaticResource SfFlatButtonStyle}"
                             Text="ورود" />
+                        
+                        <Label
+                            FontFamily="{StaticResource TeshrinMedium}"
+                            HorizontalOptions="CenterAndExpand"
+                            HorizontalTextAlignment="Center"
+                            Style="{StaticResource LabelStyle}"
+                            Text="اکانت دارید؟"
+                            VerticalTextAlignment="Center" />
 
                     </StackLayout>
                 </StackLayout>

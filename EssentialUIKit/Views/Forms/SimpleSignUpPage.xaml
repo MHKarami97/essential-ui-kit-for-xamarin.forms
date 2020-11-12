@@ -10,7 +10,7 @@
     xmlns:core="clr-namespace:Syncfusion.XForms.Core;assembly=Syncfusion.Core.XForms"
     xmlns:local="clr-namespace:EssentialUIKit.Views.Forms"
     xmlns:viewModel="clr-namespace:EssentialUIKit.ViewModels.Forms"
-    Title="Sign Up"
+    Title="عضویت"
     BackgroundColor="{DynamicResource Gray-200}"
     NavigationPage.HasNavigationBar="False">
 
@@ -68,7 +68,7 @@
                         FontFamily="{StaticResource TeshrinMedium}"
                         HorizontalTextAlignment="Center"
                         Style="{StaticResource LabelStyle}"
-                        Text="Create an account to start doing more"
+                        Text="لطفا یک اکانت برای استفاده کامل از امکانات اپلیکیشن ایجاد کنید"
                         TextColor="{DynamicResource Gray-800}" />
 
                     <!--  Entry to get username from user  -->
@@ -140,20 +140,20 @@
                             Phone="0" />
                     </StackLayout.Padding>
 
-                    <Label
-                        FontFamily="{StaticResource TeshrinMedium}"
-                        HorizontalOptions="CenterAndExpand"
-                        HorizontalTextAlignment="Center"
-                        Style="{StaticResource LabelStyle}"
-                        Text="Already have an account?"
-                        TextColor="{DynamicResource Gray-800}"
-                        VerticalTextAlignment="Center" />
-
                     <buttons:SfButton
                         Command="{Binding LoginCommand}"
                         CornerRadius="4"
                         Style="{StaticResource SfFlatButtonStyle}"
                         Text="ورود" />
+                    
+                    <Label
+                        FontFamily="{StaticResource TeshrinMedium}"
+                        HorizontalOptions="CenterAndExpand"
+                        HorizontalTextAlignment="Center"
+                        Style="{StaticResource LabelStyle}"
+                        Text="اکانت دارید؟"
+                        TextColor="{DynamicResource Gray-800}"
+                        VerticalTextAlignment="Center" />
 
                 </StackLayout>
             </StackLayout>

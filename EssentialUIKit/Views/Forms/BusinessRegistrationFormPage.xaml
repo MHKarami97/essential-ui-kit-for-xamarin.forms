@@ -34,7 +34,7 @@
                 
                 <!-- Title -->
                 <Label 
-                    Text="Business Registration Form"
+                    Text="فرم عضویت بیزینس"
                     TextColor="{DynamicResource Gray-900}"
                     FontFamily="{StaticResource TeshrinMedium}"
                     FontSize="16"

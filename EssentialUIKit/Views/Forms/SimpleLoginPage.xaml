@@ -127,7 +127,7 @@
                         FontFamily="{StaticResource TeshrinMedium}"
                         HorizontalTextAlignment="Center"
                         Style="{StaticResource LabelStyle}"
-                        Text="Or create an account using social media"
+                        Text="یا ایجاد اکانت با شبکه های اجتماعی"
                         TextColor="{DynamicResource Gray-800}" />
 
                     <!--  Login through facebook account  -->
@@ -173,6 +173,13 @@
                             Phone="0" />
                     </StackLayout.Padding>
 
+                    <!--  Sign-up button  -->
+                    <buttons:SfButton
+                        Command="{Binding SignUpCommand}"
+                        CornerRadius="4"
+                        Style="{StaticResource SfFlatButtonStyle}"
+                        Text="عضویت" />
+                    
                     <Label
                         FontFamily="{StaticResource TeshrinMedium}"
                         HorizontalOptions="CenterAndExpand"
@@ -181,13 +188,6 @@
                         Text="اکانت ندارید؟"
                         TextColor="{DynamicResource Gray-900}"
                         VerticalTextAlignment="Center" />
-
-                    <!--  Sign-up button  -->
-                    <buttons:SfButton
-                        Command="{Binding SignUpCommand}"
-                        CornerRadius="4"
-                        Style="{StaticResource SfFlatButtonStyle}"
-                        Text="عضویت" />
 
                 </StackLayout>
 

@@ -30,7 +30,7 @@
             </Grid.RowDefinitions>
 
             <!--  Title View  -->
-            <controls:TitleView Title="Categories" Grid.Row="0">
+            <controls:TitleView Title="دسته بندی ها" Grid.Row="0">
                 <controls:TitleView.LeadingView>
                     <buttons:SfButton
                         x:Name="backButton"

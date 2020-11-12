@@ -217,7 +217,7 @@
                         <buttons:SfButton
                             Command="{Binding SendCommand}"
                             Style="{StaticResource SfGradientButtonStyle}"
-                            Text="SEND" />
+                            Text="ارسال" />
 
                     </StackLayout>
                 </Frame>

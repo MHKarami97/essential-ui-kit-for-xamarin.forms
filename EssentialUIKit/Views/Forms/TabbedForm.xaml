@@ -45,7 +45,7 @@
                                                             StrokeThickness="3"/>
 
                         </tabView:SfTabView.SelectionIndicatorSettings>
-                        <tabView:SfTabItem Title="Login" SelectionColor="{DynamicResource PrimaryColor}" 
+                        <tabView:SfTabItem Title="ورود" SelectionColor="{DynamicResource PrimaryColor}" 
                                            TitleFontFamily="{StaticResource TeshrinRegular}"
                                            TitleFontSize="14"
                                            TitleFontColor="{DynamicResource Gray-700}">
@@ -100,7 +100,7 @@
                                 </Grid>
                             </tabView:SfTabItem.Content>
                         </tabView:SfTabItem>
-                        <tabView:SfTabItem Title="Sign Up" SelectionColor="{DynamicResource PrimaryColor}"
+                        <tabView:SfTabItem Title="عضویت" SelectionColor="{DynamicResource PrimaryColor}"
                                            TitleFontFamily="{StaticResource TeshrinRegular}"
                                            TitleFontSize="14"
                                            TitleFontColor="{DynamicResource Gray-700}">
@@ -175,7 +175,7 @@
                         FontFamily="{StaticResource TeshrinMedium}"
                         HorizontalTextAlignment="Center"
                         Style="{StaticResource LabelStyle}"
-                        Text="Or create an account using social media"
+                        Text="یا ایجاد اکانت با شبکه های اجتماعی"
                         TextColor="{DynamicResource Gray-800}" />
 
                 <!--  Login through facebook account  -->
