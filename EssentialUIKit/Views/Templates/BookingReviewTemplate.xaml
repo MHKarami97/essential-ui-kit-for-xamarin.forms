@@ -62,7 +62,7 @@
 
             <!--  Commented Date  -->
             <Label
-                FontFamily="{StaticResource Montserrat-Regular}"
+                FontFamily="{StaticResource TeshrinRegular}"
                 FontSize="12"
                 Style="{StaticResource LabelStyle}"
                 Text="{Binding ReviewedDate, StringFormat='{}{0:dd MMM, yyyy}'}" />
@@ -117,7 +117,7 @@
         Grid.Row="2"
         Grid.ColumnSpan="2"
         Margin="0,0,0,16"
-        FontFamily="{StaticResource Montserrat-Medium}"
+        FontFamily="{StaticResource TeshrinMedium}"
         FontSize="14"
         LineHeight="{OnPlatform Android=1.25,
                                 Default=-1}"

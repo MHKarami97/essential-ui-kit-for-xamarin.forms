@@ -43,7 +43,7 @@
                     <!--  Time  -->
                     <Label
                         Margin="5,0"
-                        FontFamily="{StaticResource Montserrat-Medium}"
+                        FontFamily="{StaticResource TeshrinMedium}"
                         FontSize="12"
                         HorizontalOptions="End"
                         Text="{Binding Time, StringFormat='{0:h:mm tt}'}"

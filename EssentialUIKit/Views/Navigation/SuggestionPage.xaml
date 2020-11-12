@@ -55,7 +55,7 @@
 
                     <!--  Suggestion page Title  -->
                     <Label   Margin="16,0"
-                        FontFamily="{StaticResource Montserrat-Medium}"
+                        FontFamily="{StaticResource TeshrinMedium}"
                         FontSize="16"
                         HorizontalOptions="CenterAndExpand"
                         LineHeight="1.25"
@@ -140,13 +140,13 @@
                                         <StackLayout Spacing="3" Grid.Column="1"  Margin="16,16,0,13" BackgroundColor="{DynamicResource Gray-White}">
 
                                             <!--  Suggestion name  -->
-                                            <Label  FontFamily="{StaticResource Montserrat-Medium}"
+                                            <Label  FontFamily="{StaticResource TeshrinMedium}"
                                                     Style="{StaticResource LabelStyle}"
                                                     Text="{Binding SuggestionName}"
                                                     FontSize="16" TextColor="{DynamicResource Gray-900}"/>
 
                                             <!--  Suggestion Id  -->
-                                            <Label Grid.Row="1" FontFamily="{StaticResource Montserrat-Medium}"
+                                            <Label Grid.Row="1" FontFamily="{StaticResource TeshrinMedium}"
                                                 FontSize="14" TextColor="{DynamicResource Gray-700}"
                                                 Style="{StaticResource LabelStyle}"  
                                                 Text="{Binding Id }"/>

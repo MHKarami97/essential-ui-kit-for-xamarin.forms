@@ -108,14 +108,14 @@
                                     Orientation="Horizontal"
                                     Spacing="0">
                                     <Label
-                                        FontFamily="{StaticResource Montserrat-Medium}"
+                                        FontFamily="{StaticResource TeshrinMedium}"
                                         FontSize="12"
                                         HorizontalOptions="StartAndExpand"
                                         Text="{Binding TransactionDescription}"
                                         TextColor="{DynamicResource Gray-700}" />
 
                                     <Label
-                                        FontFamily="{StaticResource Montserrat-Medium}"
+                                        FontFamily="{StaticResource TeshrinMedium}"
                                         FontSize="12"
                                         HorizontalOptions="End"
                                         HorizontalTextAlignment="End"

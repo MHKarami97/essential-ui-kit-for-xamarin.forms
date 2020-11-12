@@ -50,7 +50,7 @@
             <!--  Description about the item  -->
             <Label
                 Margin="0,4,0,8"
-                FontFamily="{StaticResource Montserrat-Medium}"
+                FontFamily="{StaticResource TeshrinMedium}"
                 FontSize="12"
                 LineHeight="{OnPlatform Android=1.25,
                                         Default=-1}"
@@ -68,7 +68,7 @@
                     Style="{StaticResource RatingLabelStyle}"
                     WidthRequest="16" />
                 <Label
-                    FontFamily="{StaticResource Montserrat-Regular}"
+                    FontFamily="{StaticResource TeshrinRegular}"
                     FontSize="12"
                     LineHeight="{OnPlatform Android=1.5,
                                             Default=-1}"

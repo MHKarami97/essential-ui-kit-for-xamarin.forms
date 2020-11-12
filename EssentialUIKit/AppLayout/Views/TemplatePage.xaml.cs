@@ -99,7 +99,7 @@ namespace EssentialUIKit.AppLayout.Views
 
        private void GotoCodeViewer(object sender, EventArgs e)
         {
-            Device.OpenUri(new Uri("https://github.com/syncfusion/essential-ui-kit-for-xamarin.forms"));
+            Device.OpenUri(new Uri("https://github.com/MHKarami97/essential-ui-kit-for-xamarin.forms"));
         }
 
        #endregion

@@ -71,7 +71,7 @@
 
                             <!--  Commented Date  -->
                             <Label
-                                FontFamily="{StaticResource Montserrat-Regular}"
+                                FontFamily="{StaticResource TeshrinRegular}"
                                 FontSize="12"
                                 Style="{StaticResource CommonLabelStyle}"
                                 Text="29 Dec, 2018"
@@ -93,7 +93,7 @@
                     <Label
                         Grid.Row="1"
                         Grid.ColumnSpan="2"
-                        FontFamily="{StaticResource Montserrat-Medium}"
+                        FontFamily="{StaticResource TeshrinMedium}"
                         FontSize="14"
                         Style="{StaticResource CommonLabelStyle}"
                         Text="These boots are stunning and I look stunning in them."

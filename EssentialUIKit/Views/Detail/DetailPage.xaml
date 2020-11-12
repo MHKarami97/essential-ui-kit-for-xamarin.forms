@@ -255,7 +255,7 @@
                             Grid.Row="2"
                             Grid.Column="2"
                             Margin="0,6,0,11"
-                            FontFamily="{StaticResource Montserrat-Medium}"
+                            FontFamily="{StaticResource TeshrinMedium}"
                             FontSize="{OnIdiom Default=12,
                                                Desktop=14}"
                             Style="{StaticResource LabelStyle}"

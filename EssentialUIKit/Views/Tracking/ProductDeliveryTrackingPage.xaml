@@ -147,7 +147,7 @@
                                         <Span Style="{StaticResource SpanStyle}" Text="{Binding TitleStatus}" />
                                         <Span Text="&#10;" />
                                         <Span
-                                            FontFamily="{StaticResource Montserrat-Medium}"
+                                            FontFamily="{StaticResource TeshrinMedium}"
                                             Style="{StaticResource SpanStyle}"
                                             Text="{Binding Date}"
                                             TextColor="{StaticResource Gray-700}" />
@@ -155,7 +155,7 @@
                                         <Span Style="{StaticResource SpanStyle}" Text="{Binding OrderStatus}" />
                                         <Span Text="&#10;" />
                                         <Span
-                                            FontFamily="{StaticResource Montserrat-Medium}"
+                                            FontFamily="{StaticResource TeshrinMedium}"
                                             Style="{StaticResource SpanStyle}"
                                             Text="{Binding OrderDate}"
                                             TextColor="{StaticResource Gray-700}" />

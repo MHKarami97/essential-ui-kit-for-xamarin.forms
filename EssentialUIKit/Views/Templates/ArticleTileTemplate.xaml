@@ -66,7 +66,7 @@
             Grid.Row="2"
             Grid.ColumnSpan="2"
             Margin="0"
-            FontFamily="{StaticResource Montserrat-Medium}"
+            FontFamily="{StaticResource TeshrinMedium}"
             FontSize="12"
             HorizontalOptions="Start"
             LineHeight="{OnPlatform Default=-1,
@@ -78,7 +78,7 @@
         <Label
             Grid.Row="3"
             Margin="0,2,0,8"
-            FontFamily="{StaticResource Montserrat-Regular}"
+            FontFamily="{StaticResource TeshrinRegular}"
             FontSize="12" LineBreakMode="TailTruncation"
             HorizontalOptions="Start"
             LineHeight="{OnPlatform Default=-1,

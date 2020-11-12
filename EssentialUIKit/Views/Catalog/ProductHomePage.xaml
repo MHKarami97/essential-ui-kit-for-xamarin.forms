@@ -110,7 +110,7 @@
                                     <!--  Product name  -->
                                     <Label
                                         Margin="0,0,0,8"
-                                        FontFamily="{StaticResource Montserrat-Medium}"
+                                        FontFamily="{StaticResource TeshrinMedium}"
                                         FontSize="16"
                                         HorizontalOptions="Center"
                                         LineHeight="1.25"
@@ -214,7 +214,7 @@
 
                                     <!--  Product name  -->
                                     <Label
-                                        FontFamily="{StaticResource Montserrat-Medium}"
+                                        FontFamily="{StaticResource TeshrinMedium}"
                                         FontSize="16"
                                         HorizontalOptions="Center"
                                         LineHeight="{OnPlatform Android=1.25,Default=-1}"
@@ -224,7 +224,7 @@
                                     <!--  Discount percentage  -->
                                     <Label
                                         Margin="0,2,0,8"
-                                        FontFamily="{StaticResource Montserrat-Medium}"
+                                        FontFamily="{StaticResource TeshrinMedium}"
                                         FontSize="14"
                                         HorizontalOptions="Center"
                                         LineHeight="{OnPlatform Android=1.25,Default=-1}"
@@ -330,7 +330,7 @@
                                     <!--  Product Description  -->
                                     <Label
                                         Margin="16,4"
-                                        FontFamily="{StaticResource Montserrat-Medium}"
+                                        FontFamily="{StaticResource TeshrinMedium}"
                                         FontSize="12"
                                         HorizontalOptions="StartAndExpand"
                                         LineHeight="1.25"

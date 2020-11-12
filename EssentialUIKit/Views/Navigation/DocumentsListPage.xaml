@@ -41,7 +41,7 @@
                                        Style="{StaticResource IconButtonStyle}" Text="{StaticResource Back}"/>
 
                     <!--   Documents List page Title  -->
-                    <Label  Margin="16,0" FontFamily="{StaticResource Montserrat-Medium}" FontSize="16"
+                    <Label  Margin="16,0" FontFamily="{StaticResource TeshrinMedium}" FontSize="16"
                             HorizontalOptions="CenterAndExpand" TextColor="{DynamicResource Gray-900}"
                             LineHeight="1.25"  Text="Documents List"  VerticalOptions="Center" VerticalTextAlignment="Center" />
 
@@ -120,7 +120,7 @@
                                                Text="{Binding DocumentName}"
                                                TextColor="{DynamicResource Gray-900}"
                                                FontSize="16"
-                                               FontFamily="{StaticResource Montserrat-Medium}"
+                                               FontFamily="{StaticResource TeshrinMedium}"
                                                HeightRequest="24" />
 
                                         <!-- Time -->
@@ -130,7 +130,7 @@
                                                Text="{Binding Time}"
                                                TextColor="{DynamicResource Gray-700}"
                                                FontSize="14"
-                                               FontFamily="{StaticResource Montserrat-Medium}"
+                                               FontFamily="{StaticResource TeshrinMedium}"
                                                HeightRequest="21" />
 
                                         <!-- Document Size -->
@@ -140,7 +140,7 @@
                                                Text="{Binding DocumentSize}"
                                                TextColor="{DynamicResource Gray-700}"
                                                FontSize="14"
-                                               FontFamily="{StaticResource Montserrat-Medium}"
+                                               FontFamily="{StaticResource TeshrinMedium}"
                                                HeightRequest="21" />
 
                                         <!-- More Button -->

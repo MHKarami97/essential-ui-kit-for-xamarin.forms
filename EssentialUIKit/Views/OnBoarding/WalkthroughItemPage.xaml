@@ -51,7 +51,7 @@
 
             <!--  Label to display content  -->
             <Label
-                FontFamily="{StaticResource Montserrat-Medium}"
+                FontFamily="{StaticResource TeshrinMedium}"
                 FontSize="16"
                 HorizontalOptions="Center"
                 Opacity="{OnPlatform Default=0,

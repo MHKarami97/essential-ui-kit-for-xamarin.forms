@@ -105,7 +105,7 @@ namespace EssentialUIKit.AppLayout.ViewModels
                                     {
                                         if (GetDataFromXmlReader(xmlReader, "IsUpdated") == "True")
                                         {
-                                            updateType = "Updated";
+                                            updateType = "آپدیت";
                                             isUpdate = true;
                                         }
                                     }
@@ -114,7 +114,7 @@ namespace EssentialUIKit.AppLayout.ViewModels
                                     {
                                         if (GetDataFromXmlReader(xmlReader, "IsNew") == "True")
                                         {
-                                            updateType = "New";
+                                            updateType = "جدید";
                                             isUpdate = true;
                                         }
                                     }

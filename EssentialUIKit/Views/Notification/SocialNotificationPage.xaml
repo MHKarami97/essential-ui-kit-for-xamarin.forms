@@ -124,7 +124,7 @@
                                            FontFamily="{StaticResource FontIcons}"/>
 
                                 <!-- Notification Detail -->
-                                <Label Grid.Row="0" Grid.Column="1" Text="{Binding Name}" TextColor="{DynamicResource Gray-900}" FontSize="16" FontFamily="{StaticResource Montserrat-Medium}" Margin="0, 16, 16, 0" LineHeight="{OnPlatform Android=1.25,Default=-1}"></Label>
+                                <Label Grid.Row="0" Grid.Column="1" Text="{Binding Name}" TextColor="{DynamicResource Gray-900}" FontSize="16" FontFamily="{StaticResource TeshrinMedium}" Margin="0, 16, 16, 0" LineHeight="{OnPlatform Android=1.25,Default=-1}"></Label>
 
                                 <!-- Received Time -->
                                 <Label Grid.Row="1"

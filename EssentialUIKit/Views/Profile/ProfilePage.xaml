@@ -89,7 +89,7 @@
                     <Label
                         Grid.Row="1"
                         Grid.Column="1"
-                        FontFamily="{StaticResource Montserrat-Medium}"
+                        FontFamily="{StaticResource TeshrinMedium}"
                         FontSize="12"
                         HorizontalOptions="Start"
                         LineBreakMode="TailTruncation"

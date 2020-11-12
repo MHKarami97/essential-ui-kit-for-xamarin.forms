@@ -42,7 +42,7 @@
                                        Style="{StaticResource IconButtonStyle}" Text="{StaticResource Back}"/>
 
                     <!--   Icon Names List page Title  -->
-                    <Label  Margin="16,0" FontFamily="{StaticResource Montserrat-Medium}" FontSize="16"
+                    <Label  Margin="16,0" FontFamily="{StaticResource TeshrinMedium}" FontSize="16"
                             HorizontalOptions="CenterAndExpand" TextColor="{DynamicResource Gray-900}"
                             LineHeight="1.25"  Text="Icon Names List"  VerticalOptions="Center" VerticalTextAlignment="Center" />
 
@@ -95,7 +95,7 @@
                                                  BackgroundColor="{DynamicResource Gray-100}">
 
                                         <Label Text="{Binding Key}"  FontSize="16" Margin="16,8"
-                                               FontFamily="{StaticResource Montserrat-Medium}"
+                                               FontFamily="{StaticResource TeshrinMedium}"
                                                TextColor="{DynamicResource Gray-900}"
                                                VerticalOptions="Center" HorizontalOptions="Start"/>
 
@@ -131,7 +131,7 @@
                                             <!-- Label for contacts -->
                                             <Label Grid.Column="1" Text="{Binding Name}" FontSize="16" Grid.Row="0" Margin="16,12"
                                                    VerticalOptions="Center" HorizontalOptions="Start" VerticalTextAlignment="Center"
-                                                   FontFamily="{StaticResource Montserrat-Medium}" 
+                                                   FontFamily="{StaticResource TeshrinMedium}" 
                                                    LineHeight="{OnPlatform Android=1.5, 
                                                    Default=-1}"  TextColor="{DynamicResource Gray-900}"/>
 

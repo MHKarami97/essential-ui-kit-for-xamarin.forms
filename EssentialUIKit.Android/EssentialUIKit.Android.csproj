@@ -18,7 +18,7 @@
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <AndroidHttpClientHandlerType>Xamarin.Android.Net.AndroidClientHandler</AndroidHttpClientHandlerType>
     <NuGetPackageImportStamp>
-    </NuGetPackageImportStamp>    
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -118,6 +118,14 @@
     <AndroidAsset Include="Assets\Montserrat-Medium.ttf" />
     <AndroidAsset Include="Assets\Montserrat-Regular.ttf" />
     <AndroidAsset Include="Assets\Montserrat-SemiBold.ttf" />
+    <AndroidAsset Include="Assets\TeshrinARLT-Black.ttf" />
+    <AndroidAsset Include="Assets\TeshrinARLT-Bold.ttf" />
+    <AndroidAsset Include="Assets\TeshrinARLT-ExtraLight.ttf" />
+    <AndroidAsset Include="Assets\TeshrinARLT-Hairline.ttf" />
+    <AndroidAsset Include="Assets\TeshrinARLT-Heavy.ttf" />
+    <AndroidAsset Include="Assets\TeshrinARLT-Medium.ttf" />
+    <AndroidAsset Include="Assets\TeshrinARLT-Regular.ttf" />
+    <AndroidAsset Include="Assets\TeshrinARLT-Thin.ttf" />
     <AndroidAsset Include="Assets\UIFontIcons.ttf" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
@@ -280,4 +288,9 @@
     <XmlPoke XmlInputPath="Properties\AndroidManifest.xml" Namespaces="&lt;Namespace Prefix='android' Uri='http://schemas.android.com/apk/res/android' /&gt;" Query="manifest/@android:versionCode" Value="$(BuildNumber)" />
     <XmlPoke XmlInputPath="Properties\AndroidManifest.xml" Namespaces="&lt;Namespace Prefix='android' Uri='http://schemas.android.com/apk/res/android' /&gt;" Query="manifest/@android:versionName" Value="$(VersionNumber)" />
   </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties TriggeredFromHotReload="False" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>

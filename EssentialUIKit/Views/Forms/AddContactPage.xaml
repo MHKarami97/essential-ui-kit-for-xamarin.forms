@@ -64,7 +64,7 @@
 
                         <control:CalenderDatePicker Date="{Binding Date}" 
                             x:Name="CustomDatePicker"
-                            FontFamily="{StaticResource Montserrat-Regular}"
+                            FontFamily="{StaticResource TeshrinRegular}"
                             FontSize="16"
                             Format="dd/MM/yy"
                             PlaceHolderText="DD/MM/YY"
@@ -198,7 +198,7 @@
                 <buttons:SfButton
                     HorizontalOptions="Center" Command="{Binding SubmitCommand}"
                     Style="{StaticResource SfButtonStyle}"
-                    Text="SUBMIT"
+                    Text="تایید و ارسال"
                     WidthRequest="200" />
             </StackLayout>
         </ScrollView>

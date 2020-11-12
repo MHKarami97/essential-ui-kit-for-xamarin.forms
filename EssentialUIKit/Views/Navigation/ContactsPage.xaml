@@ -44,7 +44,7 @@
                                        Style="{StaticResource IconButtonStyle}" Text="{StaticResource Back}"/>
 
                     <!--   Contacts List page Title  -->
-                    <Label  Margin="16,0" FontFamily="{StaticResource Montserrat-Medium}" FontSize="16"
+                    <Label  Margin="16,0" FontFamily="{StaticResource TeshrinMedium}" FontSize="16"
                             HorizontalOptions="CenterAndExpand" TextColor="{DynamicResource Gray-900}"
                             LineHeight="1.25"  Text="Contacts List"  VerticalOptions="Center" VerticalTextAlignment="Center" />
 
@@ -108,7 +108,7 @@
 
                                         <Label Text="{Binding Key}" 
                                                FontSize="16" 
-                                               FontFamily="{StaticResource Montserrat-Medium}"
+                                               FontFamily="{StaticResource TeshrinMedium}"
                                                TextColor="{DynamicResource Gray-900}"
                                                VerticalOptions="Center" 
                                                HorizontalOptions="Start" 

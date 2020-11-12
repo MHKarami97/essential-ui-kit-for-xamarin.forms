@@ -47,7 +47,7 @@
                                        Style="{StaticResource IconButtonStyle}" Text="{StaticResource Back}"/>
 
                     <!--   Article card page Title  -->
-                    <Label  Margin="16,0" FontFamily="{StaticResource Montserrat-Medium}" FontSize="16"
+                    <Label  Margin="16,0" FontFamily="{StaticResource TeshrinMedium}" FontSize="16"
                             HorizontalOptions="CenterAndExpand" TextColor="{DynamicResource Gray-900}"
                             LineHeight="1.25"  Text="Articles"  VerticalOptions="Center" VerticalTextAlignment="Center" />
 
@@ -125,7 +125,7 @@
 
                                                 <!--  Author name  -->
                                                 <Label 
-                                                FontFamily="{StaticResource Montserrat-Medium}"
+                                                FontFamily="{StaticResource TeshrinMedium}"
                                                 FontSize="12"
                                                 LineHeight="{OnPlatform Default=-1,
                                                                         Android=1.5}"
@@ -136,7 +136,7 @@
                                                 <!--  Published date and average reading time  -->
                                                 <Label 
                                                 Margin="0,0,0,8" Grid.Row="2" VerticalOptions="End"
-                                                FontFamily="{StaticResource Montserrat-Medium}"
+                                                FontFamily="{StaticResource TeshrinMedium}"
                                                 FontSize="12"
                                                 LineHeight="{OnPlatform Default=-1,
                                                                         Android=1.5}"

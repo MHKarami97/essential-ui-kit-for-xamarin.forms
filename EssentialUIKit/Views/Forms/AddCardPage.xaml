@@ -66,7 +66,7 @@
                     <StackLayout BackgroundColor="{DynamicResource Gray-White}" Spacing="0">
 
                         <Label
-                            FontFamily="{StaticResource Montserrat-Medium}"
+                            FontFamily="{StaticResource TeshrinMedium}"
                             FontSize="12"
                             Text="Card Number"
                             TextColor="{DynamicResource Gray-800}" />
@@ -133,7 +133,7 @@
                             <Label
                                 Grid.Row="0"
                                 Grid.Column="0"
-                                FontFamily="{StaticResource Montserrat-Medium}"
+                                FontFamily="{StaticResource TeshrinMedium}"
                                 FontSize="12"
                                 Text="Expire Date"
                                 TextColor="{DynamicResource Gray-800}" />
@@ -141,7 +141,7 @@
                             <Label
                                 Grid.Row="0"
                                 Grid.Column="1"
-                                FontFamily="{StaticResource Montserrat-Medium}"
+                                FontFamily="{StaticResource TeshrinMedium}"
                                 FontSize="12"
                                 Text="CVV"
                                 TextColor="{DynamicResource Gray-800}" />
@@ -190,7 +190,7 @@
                         </Grid>
 
                         <Label
-                            FontFamily="{StaticResource Montserrat-Medium}"
+                            FontFamily="{StaticResource TeshrinMedium}"
                             FontSize="12"
                             Text="Name on Card"
                             TextColor="{DynamicResource Gray-800}" />
@@ -217,7 +217,7 @@
                         <button:SfCheckBox
                             Margin="4,16,0,4"
                             CornerRadius="2"
-                            FontFamily="{StaticResource Montserrat-Medium}"
+                            FontFamily="{StaticResource TeshrinMedium}"
                             FontSize="16"
                             IsChecked="{Binding IsChecked}"
                             Text="Save this card"

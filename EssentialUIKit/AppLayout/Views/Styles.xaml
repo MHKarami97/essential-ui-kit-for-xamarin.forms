@@ -11,9 +11,9 @@
 
     <converters:StringToImageResourceConverter x:Key="ImageResourceConverter" />
 
-    <x:String x:Key="HomePageTitle">Essential UI Kit</x:String>
+    <x:String x:Key="HomePageTitle">کیت طراحی</x:String>
 
-    <x:String x:Key="Description">Essential UI Kit for Xamarin.Forms includes elegantly designed XAML templates for Xamarin.Forms apps</x:String>
+    <x:String x:Key="Description">این اپ یک کیت کامل نوشته شده توسط Xamarin بر پایه Syncfusion می باشد</x:String>
 
     <!--  Common style for action bar icons  -->
     <Style x:Key="ActionBarSettingIconStyle" TargetType="Button">
@@ -30,7 +30,7 @@
     <!--  Common style for action bar labels  -->
     <Style x:Key="ActionBarLabelStyle" TargetType="Label">
         <Setter Property="TextColor" Value="{DynamicResource Gray-White}" />
-        <Setter Property="FontFamily" Value="{StaticResource Montserrat-Regular}" />
+        <Setter Property="FontFamily" Value="{StaticResource TeshrinRegular}" />
         <Setter Property="FontSize" Value="16" />
     </Style>
 
@@ -59,7 +59,7 @@
         <Setter Property="TextColor" Value="{DynamicResource Gray-900}" />
         <Setter Property="Text" Value="{Binding Name}" />
         <Setter Property="FontSize" Value="12" />
-        <Setter Property="FontFamily" Value="{StaticResource Montserrat-SemiBold}" />
+        <Setter Property="FontFamily" Value="{StaticResource TeshrinMedium}" />
         <Setter Property="FontAttributes" Value="Bold" />
         <Setter Property="VerticalTextAlignment" Value="Center" />
         <Setter Property="VerticalOptions" Value="Center" />
@@ -87,7 +87,7 @@
     <Style x:Key="ItemCountLabelStyle" TargetType="Label">
         <Setter Property="TextColor" Value="{DynamicResource Gray-700}" />
         <Setter Property="Text" Value="{Binding TemplateCount}" />
-        <Setter Property="FontFamily" Value="{StaticResource Montserrat-Regular}" />
+        <Setter Property="FontFamily" Value="{StaticResource TeshrinRegular}" />
         <Setter Property="FontSize" Value="12" />
         <Setter Property="VerticalTextAlignment" Value="Center" />
         <Setter Property="VerticalOptions" Value="Center" />

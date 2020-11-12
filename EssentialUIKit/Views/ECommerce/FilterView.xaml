@@ -35,7 +35,7 @@
                                             Desktop=0}"
                     HorizontalOptions="Fill"
                     Style="{StaticResource MagentaButtonStyle}"
-                    Text="APPLY" />
+                    Text="تایید" />
             </DataTemplate>
 
             <DataTemplate x:Key="LandscapeTemplate">
@@ -46,7 +46,7 @@
                                             Desktop=0}"
                     HorizontalOptions="Fill"
                     Style="{StaticResource MagentaButtonStyle}"
-                    Text="APPLY" />
+                    Text="تایید" />
             </DataTemplate>
 
         </ResourceDictionary>
@@ -109,7 +109,7 @@
                                         <DataTemplate>
                                             <buttons:SfCheckBox
                                                 CheckedColor="{DynamicResource PrimaryColor}"
-                                                FontFamily="{StaticResource Montserrat-Medium}"
+                                                FontFamily="{StaticResource TeshrinMedium}"
                                                 FontSize="14"
                                                 HorizontalOptions="{OnIdiom Default=Fill,
                                                                             Desktop=Start}"

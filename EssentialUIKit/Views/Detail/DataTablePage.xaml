@@ -44,7 +44,7 @@
                                        Style="{StaticResource IconButtonStyle}" Text="{StaticResource Back}"/>
 
                     <!--   Data table page Title  -->
-                    <Label  Margin="16,0" FontFamily="{StaticResource Montserrat-Medium}" FontSize="16"
+                    <Label  Margin="16,0" FontFamily="{StaticResource TeshrinMedium}" FontSize="16"
                             HorizontalOptions="CenterAndExpand" TextColor="{DynamicResource Gray-900}"
                             LineHeight="1.25"  Text="Premier League Table"  VerticalOptions="Center" VerticalTextAlignment="Center" />
 
@@ -133,7 +133,7 @@
                                         </Grid.ColumnDefinitions>
                                         
                                         <!--  club name -->
-                                        <Label Margin="6,0,0,0" Text="{Binding SerialNumber}"  FontSize="14" FontFamily="{StaticResource Montserrat-Medium}" 
+                                        <Label Margin="6,0,0,0" Text="{Binding SerialNumber}"  FontSize="14" FontFamily="{StaticResource TeshrinMedium}" 
                                         TextColor="{DynamicResource Gray-900}" VerticalOptions="Center" HorizontalOptions="Start" />
 
                                         <Grid Grid.Column="1" ColumnSpacing="8">
@@ -155,20 +155,20 @@
                                                 
                                             </Image>
 
-                                            <Label Margin="0" Grid.Column="1"  Text="{Binding ClubName}" FontSize="14" FontFamily="{StaticResource Montserrat-Medium}" 
+                                            <Label Margin="0" Grid.Column="1"  Text="{Binding ClubName}" FontSize="14" FontFamily="{StaticResource TeshrinMedium}" 
                                         TextColor="{DynamicResource Gray-900}" VerticalOptions="Center" HorizontalOptions="Start" />
 
                                         </Grid>
                                         <!--  Total players -->
-                                        <Label  Grid.Column="2" Text="17" FontFamily="{StaticResource Montserrat-Medium}" 
+                                        <Label  Grid.Column="2" Text="17" FontFamily="{StaticResource TeshrinMedium}" 
                                         TextColor="{DynamicResource Gray-900}" VerticalOptions="Center" HorizontalOptions="Start" />
 
                                         <!--  Gold points for the club -->
-                                        <Label  Grid.Column="3" Text="{Binding GoldPoints}"  FontSize="14" FontFamily="{StaticResource Montserrat-Medium}" 
+                                        <Label  Grid.Column="3" Text="{Binding GoldPoints}"  FontSize="14" FontFamily="{StaticResource TeshrinMedium}" 
                                         TextColor="{DynamicResource Gray-900}" VerticalOptions="Center" HorizontalOptions="Start" />
 
                                         <!--  Total points for the club -->
-                                        <Label  Grid.Column="4" Text="{Binding Points}"  FontSize="14" FontFamily="{StaticResource Montserrat-Medium}" 
+                                        <Label  Grid.Column="4" Text="{Binding Points}"  FontSize="14" FontFamily="{StaticResource TeshrinMedium}" 
                                         TextColor="{DynamicResource Gray-900}" VerticalOptions="Center" HorizontalOptions="Start" />
 
                                         <!--  Ratings for 5 matches -->

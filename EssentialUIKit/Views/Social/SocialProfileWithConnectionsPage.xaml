@@ -187,7 +187,7 @@
                     Grid.ColumnSpan="2"
                     Text="{Binding About}" 
                     FontSize="12" 
-                    FontFamily="{StaticResource Montserrat-Medium}"
+                    FontFamily="{StaticResource TeshrinMedium}"
                     LineHeight="{OnPlatform Default=-1, Android=1.5}"
                     Margin="16,0,16,24" 
                     HorizontalOptions="Start" 

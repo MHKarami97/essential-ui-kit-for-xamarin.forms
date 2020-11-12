@@ -36,7 +36,7 @@
                 <Label 
                     Text="Business Registration Form"
                     TextColor="{DynamicResource Gray-900}"
-                    FontFamily="{StaticResource Montserrat-Medium}"
+                    FontFamily="{StaticResource TeshrinMedium}"
                     FontSize="16"
                     Margin="0,20"
                     HorizontalOptions="CenterAndExpand" />
@@ -54,7 +54,7 @@
                 
                 <!-- Business Owner Name -->
                 <Label
-                        FontFamily="{StaticResource Montserrat-Medium}"
+                        FontFamily="{StaticResource TeshrinMedium}"
                         Margin="0,0,0,4"
                         HeightRequest="18" 
                         FontSize="12"
@@ -72,7 +72,7 @@
 
                 <!-- Business Name -->
                 <Label
-                        FontFamily="{StaticResource Montserrat-Medium}"
+                        FontFamily="{StaticResource TeshrinMedium}"
                         Margin="0,24,0,4"
                         HeightRequest="18" 
                         FontSize="12"
@@ -90,7 +90,7 @@
 
                 <!-- Type of business -->
                 <Label
-                        FontFamily="{StaticResource Montserrat-Medium}"
+                        FontFamily="{StaticResource TeshrinMedium}"
                         Margin="0,24,0,4"
                         HeightRequest="18"
                         FontSize="12"
@@ -135,7 +135,7 @@
 
                 <!-- Email -->
                 <Label
-                        FontFamily="{StaticResource Montserrat-Medium}"
+                        FontFamily="{StaticResource TeshrinMedium}"
                         Margin="0,24,0,4"
                         HeightRequest="18"
                         FontSize="12"
@@ -153,7 +153,7 @@
 
                 <!-- Street Address -->
                 <Label
-                        FontFamily="{StaticResource Montserrat-Medium}"
+                        FontFamily="{StaticResource TeshrinMedium}"
                         Margin="0,24,0,4"
                         HeightRequest="18"
                         FontSize="12"
@@ -171,7 +171,7 @@
 
                 <!-- Country -->
                 <Label
-                        FontFamily="{StaticResource Montserrat-Medium}"
+                        FontFamily="{StaticResource TeshrinMedium}"
                         Margin="0,24,0,4"
                         HeightRequest="18"
                         FontSize="12"
@@ -202,7 +202,7 @@
 
                 <!-- City and State -->
                 <Label
-                        FontFamily="{StaticResource Montserrat-Medium}"
+                        FontFamily="{StaticResource TeshrinMedium}"
                         Margin="0,24,0,4"
                         HeightRequest="18"
                         FontSize="12"
@@ -255,7 +255,7 @@
 
                 <!-- Phone Number -->
                 <Label
-                        FontFamily="{StaticResource Montserrat-Medium}"
+                        FontFamily="{StaticResource TeshrinMedium}"
                         Margin="0,24,0,4"
                         HeightRequest="18"
                         FontSize="12"
@@ -282,7 +282,7 @@
                         HorizontalOptions="Center"
                         Margin="0,24,0,0"
                         Style="{StaticResource SfButtonStyle}"
-                        Text="SUBMIT"
+                        Text="تایید و ارسال"
                         WidthRequest="200" />
 
             </StackLayout>

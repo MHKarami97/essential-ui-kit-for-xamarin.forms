@@ -1,4 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
+
 <ResourceDictionary
     x:Class="EssentialUIKit.Themes.LightTheme"
     xmlns="http://xamarin.com/schemas/2014/forms"
@@ -35,6 +36,23 @@
             <On Platform="Android" Value="UIFontIcons.ttf#UIFontIcons" />
             <On Platform="iOS" Value="UIFontIcons" />
             <On Platform="UWP" Value="Assets/UIFontIcons.ttf#UIFontIcons" />
+        </OnPlatform.Platforms>
+    </OnPlatform>
+
+    <OnPlatform x:Key="TeshrinRegular" x:TypeArguments="x:String">
+        <OnPlatform.Platforms>
+            <On Platform="Android" Value="TeshrinARLT-Regular.ttf#TeshrinARLT-Regular" />
+            <On Platform="iOS" Value="TeshrinARLT-Regular" />
+            <On Platform="UWP" Value="Assets/TeshrinARLT-Regular.ttf#TeshrinARLT-Regular" />
+        </OnPlatform.Platforms>
+    </OnPlatform>
+
+
+    <OnPlatform x:Key="TeshrinMedium" x:TypeArguments="x:String">
+        <OnPlatform.Platforms>
+            <On Platform="Android" Value="TeshrinARLT-Medium.ttf#TeshrinARLT-Medium" />
+            <On Platform="iOS" Value="TeshrinARLT-Medium" />
+            <On Platform="UWP" Value="TeshrinARLT-Medium.ttf#TeshrinARLT-Medium" />
         </OnPlatform.Platforms>
     </OnPlatform>
 

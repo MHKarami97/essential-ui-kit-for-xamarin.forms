@@ -34,7 +34,7 @@
                                  BorderWidth="2" HorizontalOptions="Start" VerticalOptions="Start" CornerRadius="8" BackgroundColor="{DynamicResource Gray-White}">
                 </border:SfBorder>
                 
-                <Label Text="{Binding Description}" FontSize="14" FontFamily="{StaticResource Montserrat-Medium}" HorizontalOptions="Start" VerticalOptions="Start"
+                <Label Text="{Binding Description}" FontSize="14" FontFamily="{StaticResource TeshrinMedium}" HorizontalOptions="Start" VerticalOptions="Start"
                        LineHeight="{OnPlatform Default=1.25, iOS=-1}" TextColor="{DynamicResource Gray-700}" Grid.Column="1"/>
             </Grid>
         </ViewCell>

@@ -38,7 +38,7 @@
                 <!--  Title View  -->
                 <controls:TitleView
                     Title="Stock"
-                    FontFamily="{StaticResource Montserrat-Medium}"
+                    FontFamily="{StaticResource TeshrinMedium}"
                     FontSize="16">
                     <controls:TitleView.LeadingView>
 
@@ -150,7 +150,7 @@
 
                                             <Label
                                                 Grid.Row="1"
-                                                FontFamily="{StaticResource Montserrat-Medium}"
+                                                FontFamily="{StaticResource TeshrinMedium}"
                                                 FontSize="12"
                                                 HorizontalOptions="Start"
                                                 HorizontalTextAlignment="Center"

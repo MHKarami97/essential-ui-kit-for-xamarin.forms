@@ -55,7 +55,7 @@
 
                     <!--  File explorer list page Title  -->
                     <Label Margin="16,0"
-                           FontFamily="{StaticResource Montserrat-Medium}"
+                           FontFamily="{StaticResource TeshrinMedium}"
                            FontSize="16"
                            HorizontalOptions="CenterAndExpand"
                            Text="File Explorer"

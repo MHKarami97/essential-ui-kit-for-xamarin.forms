@@ -116,7 +116,7 @@
                                             <!--  Author name  -->
                                             <Label
                                                 helper:RTLHelper.Margin="16,0,0,0"
-                                                FontFamily="{StaticResource Montserrat-Medium}"
+                                                FontFamily="{StaticResource TeshrinMedium}"
                                                 FontSize="12"
                                                 LineHeight="{OnPlatform Default=-1,
                                                                         Android=1.5}"
@@ -127,7 +127,7 @@
                                             <!--  Published date and average reading time  -->
                                             <Label
                                                 Margin="16,2,16,16"
-                                                FontFamily="{StaticResource Montserrat-Regular}"
+                                                FontFamily="{StaticResource TeshrinRegular}"
                                                 FontSize="12"
                                                 LineHeight="{OnPlatform Default=-1,
                                                                         Android=1.5}"

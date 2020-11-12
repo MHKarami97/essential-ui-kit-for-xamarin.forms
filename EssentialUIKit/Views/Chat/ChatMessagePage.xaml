@@ -55,7 +55,7 @@
                         <DataTemplate>
                             <Label
                                 Margin="0,16,0,0"
-                                FontFamily="{StaticResource Montserrat-Medium}"
+                                FontFamily="{StaticResource TeshrinMedium}"
                                 FontSize="12"
                                 HorizontalTextAlignment="Center"
                                 LineHeight="1.5"

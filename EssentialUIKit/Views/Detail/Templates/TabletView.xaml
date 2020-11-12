@@ -89,7 +89,7 @@
 
                     <!--  Product Review  -->
                     <Label
-                        FontFamily="{StaticResource Montserrat-Medium}"
+                        FontFamily="{StaticResource TeshrinMedium}"
                         FontSize="14"
                         Style="{StaticResource CommonLabelStyle}"
                         Text="These boots are stunning and I look stunning in them." />
@@ -107,7 +107,7 @@
                             Value="5" />
                         <Label
                             Margin="2,0,0,0"
-                            FontFamily="{StaticResource Montserrat-Medium}"
+                            FontFamily="{StaticResource TeshrinMedium}"
                             FontSize="12"
                             Style="{StaticResource CommonLabelStyle}"
                             Text="534 Ratings" />

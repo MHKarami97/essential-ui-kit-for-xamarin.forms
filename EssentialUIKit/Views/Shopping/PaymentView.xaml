@@ -47,7 +47,7 @@
                         Grid.Column="0"
                         Grid.ColumnSpan="2"
                         templateSelector:RTLHelper.Margin="42,0,0,0"
-                        FontFamily="{StaticResource Montserrat-Medium}"
+                        FontFamily="{StaticResource TeshrinMedium}"
                         FontSize="12"
                         HorizontalOptions="StartAndExpand"
                         Text="{Binding CardNumber}"
@@ -62,7 +62,7 @@
                         BorderColor="{DynamicResource Gray-300}"
                         CornerRadius="4">
                         <control:BorderlessEntry
-                            FontFamily="{StaticResource Montserrat-Regular}"
+                            FontFamily="{StaticResource TeshrinRegular}"
                             FontSize="16"
                             HeightRequest="{OnPlatform Default=40,
                                                        iOS=-1}"

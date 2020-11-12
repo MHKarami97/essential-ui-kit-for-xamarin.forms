@@ -159,7 +159,7 @@
 
                     <Label
                         Grid.Column="1"
-                        FontFamily="{StaticResource Montserrat-Medium}"
+                        FontFamily="{StaticResource TeshrinMedium}"
                         Style="{StaticResource CommonProfileLabelStyle}"
                         Text="juliagrant@mail.com" />
 
@@ -182,7 +182,7 @@
 
                     <Label
                         Grid.Column="1"
-                        FontFamily="{StaticResource Montserrat-Medium}"
+                        FontFamily="{StaticResource TeshrinMedium}"
                         Style="{StaticResource CommonProfileLabelStyle}"
                         Text="+1-202-555-0101" />
 

@@ -58,14 +58,14 @@
                         FontSize="20"
                         HorizontalOptions="Center"
                         Style="{StaticResource LabelStyle}"
-                        Text="Sign Up"
+                        Text="عضویت"
                         TextColor="{DynamicResource Gray-900}" />
 
                     <!--  Label to display the description of this page  -->
                     <Label
                         x:Name="text"
                         Margin="0,-16,0,8"
-                        FontFamily="{StaticResource Montserrat-Medium}"
+                        FontFamily="{StaticResource TeshrinMedium}"
                         HorizontalTextAlignment="Center"
                         Style="{StaticResource LabelStyle}"
                         Text="Create an account to start doing more"
@@ -124,7 +124,7 @@
                         CornerRadius="20"
                         FontFamily="{StaticResource Montserrat-SemiBold}"
                         Style="{StaticResource SfButtonStyle}"
-                        Text="REGISTER" />
+                        Text="ثبت نام" />
                 </StackLayout>
 
                 <StackLayout
@@ -141,7 +141,7 @@
                     </StackLayout.Padding>
 
                     <Label
-                        FontFamily="{StaticResource Montserrat-Medium}"
+                        FontFamily="{StaticResource TeshrinMedium}"
                         HorizontalOptions="CenterAndExpand"
                         HorizontalTextAlignment="Center"
                         Style="{StaticResource LabelStyle}"
@@ -153,7 +153,7 @@
                         Command="{Binding LoginCommand}"
                         CornerRadius="4"
                         Style="{StaticResource SfFlatButtonStyle}"
-                        Text="Log In" />
+                        Text="ورود" />
 
                 </StackLayout>
             </StackLayout>

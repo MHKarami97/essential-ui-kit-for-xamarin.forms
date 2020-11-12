@@ -68,7 +68,7 @@
                 <!--  Label to display content  -->
                 <Label
                     Margin="8,0,8,0"
-                    FontFamily="{StaticResource Montserrat-Medium}"
+                    FontFamily="{StaticResource TeshrinMedium}"
                     FontSize="16"
                     Style="{StaticResource LabelStyle}"
                     Text="{Binding Content}"

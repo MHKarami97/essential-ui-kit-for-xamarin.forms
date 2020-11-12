@@ -91,7 +91,7 @@
                        HorizontalOptions="Start" TextColor="{DynamicResource Gray-900}" LineBreakMode="NoWrap"/>
 
                 <!--  Event time label  -->
-                <Label  Text="{Binding EventTime}"  FontSize="12" FontFamily="{StaticResource Montserrat-Medium}" 
+                <Label  Text="{Binding EventTime}"  FontSize="12" FontFamily="{StaticResource TeshrinMedium}" 
                         HorizontalOptions="Start" TextColor="{DynamicResource Gray-700}"/>
 
             </StackLayout>

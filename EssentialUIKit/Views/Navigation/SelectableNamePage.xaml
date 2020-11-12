@@ -42,7 +42,7 @@
                                        Style="{StaticResource IconButtonStyle}" Text="{StaticResource Back}"/>
 
                     <!--  Selectable Name page Title  -->
-                    <Label  Margin="16,0" FontFamily="{StaticResource Montserrat-Medium}" FontSize="16"
+                    <Label  Margin="16,0" FontFamily="{StaticResource TeshrinMedium}" FontSize="16"
                             HorizontalOptions="CenterAndExpand" TextColor="{DynamicResource Gray-900}"
                             LineHeight="1.25"  Text="Selectable Name List"  VerticalOptions="Center" VerticalTextAlignment="Center" />
 
@@ -93,7 +93,7 @@
                                     <StackLayout Spacing="0" Orientation="Horizontal" HeightRequest="40" 
                                                  BackgroundColor="{DynamicResource Gray-100}">
                                         <Label Text="{Binding Key}"  FontSize="16" Margin="16,8"
-                                               FontFamily="{StaticResource Montserrat-Medium}"
+                                               FontFamily="{StaticResource TeshrinMedium}"
                                                TextColor="{DynamicResource Gray-900}"
                                                VerticalOptions="Center" HorizontalOptions="Start"/>
 

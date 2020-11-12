@@ -121,7 +121,7 @@
 
                                     <!--  Reviews -->
                                     <Label Grid.Row="1" Margin="4,0,0,0"
-                                        FontFamily="{StaticResource Montserrat-Medium}"
+                                        FontFamily="{StaticResource TeshrinMedium}"
                                         Style="{StaticResource LabelStyle}" 
                                         Text="{Binding RoomDetail.TotalReviews}" />
 
@@ -237,19 +237,19 @@
                                         <Label.FormattedText>
                                             <FormattedString>
                                                 <Span FontSize="24"
-                                                FontFamily="{StaticResource Montserrat-Medium}"
+                                                FontFamily="{StaticResource TeshrinMedium}"
                                                 Text="{Binding RoomDetail.Cost, StringFormat='${0:0}'}"
                                                 TextColor="{DynamicResource PrimaryColor}" />
 
                                                 <Span  Text=" / " FontSize="16" TextColor="{DynamicResource Gray-700}" />
 
                                                 <Span FontSize="14"
-                                               FontFamily="{StaticResource Montserrat-Regular}" 
+                                               FontFamily="{StaticResource TeshrinRegular}" 
                                                Text="{Binding RoomDetail.TotalDays}"
                                                TextColor="{DynamicResource Gray-700}" />
 
                                                 <Span FontSize="14"
-                                               FontFamily="{StaticResource Montserrat-Regular}"
+                                               FontFamily="{StaticResource TeshrinRegular}"
                                                Text=" night" TextColor="{DynamicResource Gray-700}" />
 
                                             </FormattedString>
@@ -273,7 +273,7 @@
 
                                 <!--  resort description -->
                                 <Label  Grid.Row="5"  Margin="0,4"
-                                    FontFamily="{StaticResource Montserrat-Medium}"
+                                    FontFamily="{StaticResource TeshrinMedium}"
                                     FontSize="12"
                                     Style="{StaticResource LabelStyle}"
                                     Text="{Binding RoomDetail.ResortDescription}" />
@@ -306,7 +306,7 @@
                                                 </border:SfBorder>
 
                                                 <Label  TextColor="{DynamicResource Gray-700}" 
-                                                    FontFamily="{StaticResource Montserrat-Medium}" FontSize="12"
+                                                    FontFamily="{StaticResource TeshrinMedium}" FontSize="12"
                                                     Text="{Binding Facility}" HorizontalOptions="Center"/>
 
                                             </StackLayout>
@@ -324,7 +324,7 @@
                                                 </buttons:SfButton>
 
                                                 <Label  TextColor="{DynamicResource Gray-700}" 
-                                                    FontFamily="{StaticResource Montserrat-Medium}" FontSize="12"
+                                                    FontFamily="{StaticResource TeshrinMedium}" FontSize="12"
                                                     Text="More" HorizontalOptions="Center"/>
 
                                             </StackLayout>
@@ -393,7 +393,7 @@
 
                                     <!--  Label for address -->
                                     <Label  HorizontalTextAlignment="Start"  Grid.Column="1"                    
-                                       FontFamily="{StaticResource Montserrat-Medium}"
+                                       FontFamily="{StaticResource TeshrinMedium}"
                                        FontSize="12"
                                        HorizontalOptions="StartAndExpand"                        
                                        Style="{StaticResource LabelStyle}"
@@ -412,7 +412,7 @@
 
                                     <!--  call label -->
                                     <Label Grid.Column="1" Grid.Row="1"
-                                       FontFamily="{StaticResource Montserrat-Medium}"
+                                       FontFamily="{StaticResource TeshrinMedium}"
                                        FontSize="12"
                                        HorizontalOptions="StartAndExpand"                        
                                        Style="{StaticResource LabelStyle}"

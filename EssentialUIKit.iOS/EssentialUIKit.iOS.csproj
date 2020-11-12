@@ -119,6 +119,14 @@
     <BundleResource Include="Resources\Montserrat-Regular.ttf" />
     <BundleResource Include="Resources\Montserrat-SemiBold.ttf" />
     <Compile Include="Renderers\CalenderDatePickerRenderer.cs" />
+    <BundleResource Include="Resources\TeshrinARLT-Black.ttf" />
+    <BundleResource Include="Resources\TeshrinARLT-Bold.ttf" />
+    <BundleResource Include="Resources\TeshrinARLT-ExtraLight.ttf" />
+    <BundleResource Include="Resources\TeshrinARLT-Hairline.ttf" />
+    <BundleResource Include="Resources\TeshrinARLT-Heavy.ttf" />
+    <BundleResource Include="Resources\TeshrinARLT-Medium.ttf" />
+    <BundleResource Include="Resources\TeshrinARLT-Regular.ttf" />
+    <BundleResource Include="Resources\TeshrinARLT-Thin.ttf" />
     <BundleResource Include="Resources\UIFontIcons.ttf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </BundleResource>

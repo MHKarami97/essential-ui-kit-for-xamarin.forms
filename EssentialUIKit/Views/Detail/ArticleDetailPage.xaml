@@ -88,17 +88,17 @@
                         <Label.FormattedText>
                             <FormattedString>
                                 <Span
-                                    FontFamily="{StaticResource Montserrat-Medium}"
+                                    FontFamily="{StaticResource TeshrinMedium}"
                                     Text="{Binding ArticleAuthor}"
                                     TextColor="{DynamicResource Gray-900}" />
                                 <Span Text="    " />
                                 <Span
-                                    FontFamily="{StaticResource Montserrat-Regular}"
+                                    FontFamily="{StaticResource TeshrinRegular}"
                                     Text="{Binding ArticleDate}"
                                     TextColor="{DynamicResource Gray-700}" />
                                 <Span Text=" | " TextColor="{DynamicResource Gray-700}" />
                                 <Span
-                                    FontFamily="{StaticResource Montserrat-Regular}"
+                                    FontFamily="{StaticResource TeshrinRegular}"
                                     Text="{Binding ArticleReadingTime}"
                                     TextColor="{DynamicResource Gray-700}" />
                             </FormattedString>
@@ -121,7 +121,7 @@
                     <!--  Article content  -->
                     <Label
                         Margin="0,16"
-                        FontFamily="{StaticResource Montserrat-Medium}"
+                        FontFamily="{StaticResource TeshrinMedium}"
                         FontSize="14"
                         LineHeight="1.5"
                         Text="{Binding ArticleContent}"
@@ -142,7 +142,7 @@
 
                     <!--  Description image name  -->
                     <Label
-                        FontFamily="{StaticResource Montserrat-Medium}"
+                        FontFamily="{StaticResource TeshrinMedium}"
                         FontSize="12"
                         HorizontalOptions="Center"
                         HorizontalTextAlignment="Center"
@@ -176,7 +176,7 @@
                                         TextColor="{DynamicResource Gray-500}" />
 
                                     <Label
-                                        FontFamily="{StaticResource Montserrat-Medium}"
+                                        FontFamily="{StaticResource TeshrinMedium}"
                                         FontSize="14"
                                         LineHeight="1.5"
                                         Text="{Binding Description}"

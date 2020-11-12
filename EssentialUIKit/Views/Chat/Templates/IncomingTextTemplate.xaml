@@ -29,7 +29,7 @@
 
                     <!--  Message Text  -->
                     <Label
-                        FontFamily="{StaticResource Montserrat-Medium}"
+                        FontFamily="{StaticResource TeshrinMedium}"
                         FontSize="12"
                         HorizontalOptions="Start"
                         LineHeight="1.25"
@@ -39,7 +39,7 @@
 
                     <!--  Time  -->
                     <Label
-                        FontFamily="{StaticResource Montserrat-Medium}"
+                        FontFamily="{StaticResource TeshrinMedium}"
                         FontSize="12"
                         HorizontalOptions="End"
                         LineHeight="1.25"

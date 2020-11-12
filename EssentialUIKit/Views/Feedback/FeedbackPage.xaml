@@ -30,7 +30,7 @@
             <!--  Title  -->
             <Label
                 Margin="0,16"
-                FontFamily="{StaticResource Montserrat-Medium}"
+                FontFamily="{StaticResource TeshrinMedium}"
                 FontSize="16"
                 HorizontalOptions="CenterAndExpand"
                 Style="{StaticResource LabelStyle}"

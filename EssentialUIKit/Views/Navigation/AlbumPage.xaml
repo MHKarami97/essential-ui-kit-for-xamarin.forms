@@ -28,7 +28,7 @@
 
                 <!--  Title  -->
                 <Label
-                    FontFamily="{StaticResource Montserrat-Medium}"
+                    FontFamily="{StaticResource TeshrinMedium}"
                     FontSize="16"
                     HorizontalOptions="CenterAndExpand"
                     LineHeight="{OnPlatform Android=1.5,
@@ -155,7 +155,7 @@
 
                                     <!--  Total number of photos  -->
                                     <Label
-                                        FontFamily="{StaticResource Montserrat-Medium}"
+                                        FontFamily="{StaticResource TeshrinMedium}"
                                         FontSize="12"
                                         Text="{Binding PhotosCount}"
                                         TextColor="{DynamicResource Gray-White}" />

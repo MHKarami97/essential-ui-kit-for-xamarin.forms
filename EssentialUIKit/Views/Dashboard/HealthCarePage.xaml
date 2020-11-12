@@ -35,7 +35,7 @@
                 <!--  Title View  -->
                 <controls:TitleView
                     Title="Health Care"
-                    FontFamily="{StaticResource Montserrat-Medium}"
+                    FontFamily="{StaticResource TeshrinMedium}"
                     FontSize="16">
                     <controls:TitleView.LeadingView>
 
@@ -153,7 +153,7 @@
                                     </Grid.RowDefinitions>
                                     <Label Text="{Binding Category}" Style="{StaticResource LabelStyle}"></Label>
                                     <Label Grid.Column="1" Grid.RowSpan="2" FontSize="16" Style="{StaticResource LabelStyle}" HorizontalOptions="EndAndExpand" VerticalOptions="Center" Text="{Binding CategoryValue}"></Label>
-                                    <Label Grid.Row="1" Text="{Binding CategoryPercentage}" FontSize="12" TextColor="{DynamicResource Gray-700}" Style="{StaticResource LabelStyle}" FontFamily="{StaticResource Montserrat-Medium}"></Label>
+                                    <Label Grid.Row="1" Text="{Binding CategoryPercentage}" FontSize="12" TextColor="{DynamicResource Gray-700}" Style="{StaticResource LabelStyle}" FontFamily="{StaticResource TeshrinMedium}"></Label>
                                 </Grid>
 
                             </cards:SfCardView>

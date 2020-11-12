@@ -56,7 +56,7 @@
                     <!--  Restaurant page Title  -->
                     <Label Margin="16,0"
                         HeightRequest="24"
-                        FontFamily="{StaticResource Montserrat-Medium}"
+                        FontFamily="{StaticResource TeshrinMedium}"
                         FontSize="16"
                         HorizontalOptions="CenterAndExpand"
                         LineHeight="1.25"
@@ -151,7 +151,7 @@
 
                                                 <!--  Name of the Restaurant  -->
                                                 <Label 
-                                                    FontFamily="{StaticResource Montserrat-Medium}"
+                                                    FontFamily="{StaticResource TeshrinMedium}"
                                                     FontSize="16" 
                                                     LineHeight="{OnPlatform Android=1.5,
                                                                              Default=-1}"
@@ -160,7 +160,7 @@
 
                                                 <!--  Description about the item  -->
                                                 <Label 
-                                                    FontFamily="{StaticResource Montserrat-Medium}"
+                                                    FontFamily="{StaticResource TeshrinMedium}"
                                                     FontSize="14"
                                                     LineHeight="{OnPlatform Android=1.25,
                                                                         Default=-1}"
@@ -169,7 +169,7 @@
 
                                                 <!--  Label for Offer  -->
                                                 <Label 
-                                                     FontFamily="{StaticResource Montserrat-Medium}"
+                                                     FontFamily="{StaticResource TeshrinMedium}"
                                                      FontSize="14"
                                                      LineHeight="{OnPlatform Android=1.25,
                                                      Default=-1}"
@@ -180,7 +180,7 @@
                                             <border:SfBorder BackgroundColor="{DynamicResource LightGreen}" WidthRequest="24" HeightRequest="20"
                                                       HorizontalOptions="End" Margin="0,8,0,0" VerticalOptions="Start"
                                                       Grid.Column="2" CornerRadius="4" BorderColor="Transparent">
-                                                <Label  FontFamily="{StaticResource Montserrat-Medium}" 
+                                                <Label  FontFamily="{StaticResource TeshrinMedium}" 
                                                         Text="{Binding ItemRating}" HorizontalOptions="Center"
                                                         FontSize="12" LineHeight="{OnPlatform Android=1.5,
                                                         Default=-1}" TextColor="{DynamicResource Gray-White}" VerticalTextAlignment="Center" />

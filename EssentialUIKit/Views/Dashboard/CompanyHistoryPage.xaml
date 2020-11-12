@@ -15,7 +15,7 @@
                 <Label 
                     Text="Company History"
                     TextColor="{DynamicResource Gray-900}"
-                    FontFamily="{StaticResource Montserrat-Medium}"
+                    FontFamily="{StaticResource TeshrinMedium}"
                     FontSize="16"
                     Margin="0,20"
                     HorizontalOptions="CenterAndExpand" />
@@ -44,7 +44,7 @@
                 <Label Text="{Binding CompanyName}" FontSize="16" FontFamily="{StaticResource Montserrat-SemiBold}" LineHeight="{OnPlatform Default=1.25, iOS=-1}"
                        TextColor="{DynamicResource Gray-800}" LineBreakMode="TailTruncation"/>
 
-                <Label Text="{Binding CompanyDescription}" FontSize="14" FontFamily="{StaticResource Montserrat-Medium}"  LineHeight="{OnPlatform Default=1.25, iOS=-1}"
+                <Label Text="{Binding CompanyDescription}" FontSize="14" FontFamily="{StaticResource TeshrinMedium}"  LineHeight="{OnPlatform Default=1.25, iOS=-1}"
                        TextColor="{DynamicResource Gray-700}" LineBreakMode="WordWrap" />
 
                 <Grid RowSpacing="0" ColumnSpacing="0" Margin="0,16,0,0">

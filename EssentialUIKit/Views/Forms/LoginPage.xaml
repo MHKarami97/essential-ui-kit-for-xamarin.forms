@@ -73,16 +73,16 @@
                             FontSize="20"
                             HorizontalTextAlignment="Center"
                             Style="{StaticResource LabelStyle}"
-                            Text="Log In" />
+                            Text="ورود" />
 
                         <!--  Label to display the description of this page  -->
                         <Label
                             Grid.Row="1"
                             Margin="0,8"
-                            FontFamily="{StaticResource Montserrat-Medium}"
+                            FontFamily="{StaticResource TeshrinMedium}"
                             HorizontalTextAlignment="Center"
                             Style="{StaticResource LabelStyle}"
-                            Text="Let's get to work" />
+                            Text="بزن بریم" />
 
                         <!--  Entry to get email ID from user  -->
                         <local:EmailEntry Grid.Row="2" Padding="0,24" />
@@ -108,7 +108,7 @@
                             FontFamily="{StaticResource Montserrat-SemiBold}"
                             FontSize="12"
                             HorizontalOptions="End"
-                            Text="FORGOT PASSWORD?"
+                            Text="فراموشی رمز عبور"
                             TextColor="White">
                             <Label.GestureRecognizers>
                                 <TapGestureRecognizer Command="{Binding ForgotPasswordCommand}" CommandParameter="{x:Reference ForgotPasswordLabel}" />
@@ -121,12 +121,12 @@
                             Margin="0,16"
                             Command="{Binding LoginCommand}"
                             Style="{StaticResource SfButtonStyle}"
-                            Text="LOG IN" />
+                            Text="ورود" />
 
 
                         <Label
                             Grid.Row="6"
-                            FontFamily="{StaticResource Montserrat-Medium}"
+                            FontFamily="{StaticResource TeshrinMedium}"
                             HorizontalTextAlignment="Center"
                             Style="{StaticResource LabelStyle}"
                             Text="Or create an account using social media" />
@@ -151,7 +151,7 @@
                                         TextColor="{DynamicResource Gray-White}"
                                         VerticalTextAlignment="Center" />
                                     <Label
-                                        FontFamily="{StaticResource Montserrat-Medium}"
+                                        FontFamily="{StaticResource TeshrinMedium}"
                                         FontSize="16"
                                         Text="Login with Facebook"
                                         TextColor="{DynamicResource Gray-White}" />
@@ -175,11 +175,11 @@
                         </StackLayout.Padding>
 
                         <Label
-                            FontFamily="{StaticResource Montserrat-Medium}"
+                            FontFamily="{StaticResource TeshrinMedium}"
                             HorizontalOptions="CenterAndExpand"
                             HorizontalTextAlignment="Center"
                             Style="{StaticResource LabelStyle}"
-                            Text="Don't have an account?"
+                            Text="اکانت ندارید؟"
                             VerticalTextAlignment="Center" />
 
                         <!--  Sign-up button  -->
@@ -187,7 +187,7 @@
                             Command="{Binding SignUpCommand}"
                             CornerRadius="4"
                             Style="{StaticResource SfFlatButtonStyle}"
-                            Text="Sign Up" />
+                            Text="عضویت" />
 
                     </StackLayout>
 

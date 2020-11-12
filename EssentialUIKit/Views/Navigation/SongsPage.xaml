@@ -59,7 +59,7 @@
                     <!--  Songs page Title  -->
                     <Label
                         Margin="16,0"
-                        FontFamily="{StaticResource Montserrat-Medium}"
+                        FontFamily="{StaticResource TeshrinMedium}"
                         FontSize="16"
                         HorizontalOptions="CenterAndExpand"
                         LineHeight="1.25"
@@ -151,7 +151,7 @@
                                                 <!--  Name of the Song  -->
                                                 <Label
                                                      
-                                                     FontFamily="{StaticResource Montserrat-Medium}"
+                                                     FontFamily="{StaticResource TeshrinMedium}"
                                                      FontSize="16"
                                                      LineHeight="{OnPlatform Android=1.5,
                                                      Default=-1}"
@@ -161,7 +161,7 @@
                                                 <!--  Composer of the song  -->
                                                 <Label
                                                       
-                                                      FontFamily="{StaticResource Montserrat-Medium}"
+                                                      FontFamily="{StaticResource TeshrinMedium}"
                                                       FontSize="14"
                                                       LineHeight="{OnPlatform Android=1.25,
                                                          Default=-1}"

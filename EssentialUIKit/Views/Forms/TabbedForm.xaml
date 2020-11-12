@@ -46,7 +46,7 @@
 
                         </tabView:SfTabView.SelectionIndicatorSettings>
                         <tabView:SfTabItem Title="Login" SelectionColor="{DynamicResource PrimaryColor}" 
-                                           TitleFontFamily="{StaticResource Montserrat-Regular}"
+                                           TitleFontFamily="{StaticResource TeshrinRegular}"
                                            TitleFontSize="14"
                                            TitleFontColor="{DynamicResource Gray-700}">
                             <tabView:SfTabItem.BindingContext>
@@ -80,7 +80,7 @@
                                     FontFamily="{StaticResource Montserrat-SemiBold}"
                                     FontSize="12"                        
                                     HorizontalOptions="End"                        
-                                    Text="Forgot Password?"
+                                    Text="فراموشی رمز عبور"
                                     TextColor="{DynamicResource Gray-800}">
                                             <Label.GestureRecognizers>
                                                 <TapGestureRecognizer Command="{Binding ForgotPasswordCommand}" CommandParameter="{x:Reference ForgotPasswordLabel}" />
@@ -94,14 +94,14 @@
                                     Margin="0,16"
                                     Command="{Binding LoginCommand}"
                                     Style="{StaticResource SfButtonStyle}"
-                                    Text="LOG IN" />
+                                    Text="ورود" />
 
                                     </StackLayout>
                                 </Grid>
                             </tabView:SfTabItem.Content>
                         </tabView:SfTabItem>
                         <tabView:SfTabItem Title="Sign Up" SelectionColor="{DynamicResource PrimaryColor}"
-                                           TitleFontFamily="{StaticResource Montserrat-Regular}"
+                                           TitleFontFamily="{StaticResource TeshrinRegular}"
                                            TitleFontSize="14"
                                            TitleFontColor="{DynamicResource Gray-700}">
                             <tabView:SfTabItem.BindingContext>
@@ -164,7 +164,7 @@
                                     WidthRequest="245"
                                     FontFamily="{StaticResource Montserrat-SemiBold}"
                                     Style="{StaticResource SfButtonStyle}"
-                                    Text="SIGN UP" />
+                                    Text="عضویت" />
                                 </StackLayout>
                             </tabView:SfTabItem.Content>
                         </tabView:SfTabItem>
@@ -172,7 +172,7 @@
                 </control:CustomShadowFrame>
                 <Label Grid.Row="6"
                        Margin="0,20,0,0"
-                        FontFamily="{StaticResource Montserrat-Medium}"
+                        FontFamily="{StaticResource TeshrinMedium}"
                         HorizontalTextAlignment="Center"
                         Style="{StaticResource LabelStyle}"
                         Text="Or create an account using social media"
@@ -199,7 +199,7 @@
                                     TextColor="{DynamicResource Gray-White}"
                                     VerticalTextAlignment="Center" />
                             <Label
-                                    FontFamily="{StaticResource Montserrat-Medium}"
+                                    FontFamily="{StaticResource TeshrinMedium}"
                                     FontSize="16"
                                     Text="Facebook"
                                     TextColor="{DynamicResource Gray-White}" />

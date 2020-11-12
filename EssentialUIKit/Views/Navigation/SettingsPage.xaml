@@ -27,7 +27,7 @@
             <RowDefinition Height="Auto"/>
           </Grid.RowDefinitions>
           <Label Grid.Row="0"
-                  FontFamily="{StaticResource Montserrat-Medium}"
+                  FontFamily="{StaticResource TeshrinMedium}"
                   FontSize="16"
                   Margin="0,4,0,0"
                   HeightRequest="45"  

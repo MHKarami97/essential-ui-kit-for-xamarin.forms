@@ -1,177 +1,208 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Samples>
-
-  <Category Icon="log-in.png" Name="Forms" IsUpdated="True" Description="Get the user’s details to authenticate, create a profile, and enter credit card information for online payment portal.">
-    <Page Name="Simple Login Page" Description="If you want a simple and clean authentication form, just add this page to your application. Email validation is done within this form." PageName="Views.Forms.SimpleLoginPage"/>
-    <Page Name="Simple Sign Up Page" Description="This is a supporting form for a simple login page that can be modified to match any of your login pages on the fly. Email validation is done in this form." PageName="Views.Forms.SimpleSignUpPage"/>
-    <Page Name="Simple Reset Password Page" Description="This page is used for resetting a password with existing credentials or signing up if the user doesn’t have credentials yet." PageName="Views.Forms.SimpleResetPasswordPage"/>
-    <Page Name="Simple Forgot Password Page" Description="This page follows a login page through a Forgot Password option. If a username does not exist, users can easily sign up from this page." PageName="Views.Forms.SimpleForgotPasswordPage"/>
-    <Page Name="Login Page With Gradient" Description="If you want a simple and clean authentication form, then just add this page to your application. Email validation is done within this form." PageName="Views.Forms.LoginPage"/>
-    <Page Name="Sign Up Page With Gradient" Description="This is a supporting form for a simple login page that you can modify to match any of your login pages on the fly. Email validation is done in this form." PageName="Views.Forms.SignUpPage"/>
-    <Page Name="Reset Password Page With Gradient" Description="This page is used for resetting a password with existing credentials or signing up if the user doesn’t have credentials yet." PageName="Views.Forms.ResetPasswordPage"/>
-    <Page Name="Forgot Password Page With Gradient" Description="This page follows a login page through a Forgot Password option. If a username does not exist, users can easily sign up from this page." PageName="Views.Forms.ForgotPasswordPage"/>
-    <Page Name="Add Contact Page" Description="This page allows users to add  new contacts with additional information such as name, email address, and phone number." PageName="Views.Forms.AddContactPage"/>
-    <Page Name="Tabbed Login Page" Description="This page is a multi-tabbed user interface where one tab provides a login page and another tab provides a sign-up form." PageName="Views.Forms.TabbedForm"/>
-    <Page Name="Add Card Page" Description="This page allows users to enter their credit card information to be used in an online payment portal." PageName="Views.Forms.AddCardPage"/>
-    <Page Name="Add Profile Page" Description="This page allows users to add a new entry to their contacts with additional information such as name and phone number." PageName="Views.Forms.AddProfilePage"/>
-    <Page Name="Business Registration Form Page"  Description="This page allows users to add business details such as name, email address, and phone number." PageName="Views.Forms.BusinessRegistrationFormPage"/>
-    <Page Name="Login with Social Icon Page" IsNew="True" Description="Add this page to your application if you want a login page with social network icons. Email validation is done within the form." PageName="Views.Forms.LoginWithSocialIconPage"/> 
-  </Category>
-
-  <Category Icon="catalog.png" Name="Catalog" IsUpdated="True" Description="Let the users select from the list of items that includes titles, brief descriptions, and photos.">
-    <Page Name="Category Tile Page" Description="Displaying an image with a title is a scenario in most applications, and this page categorizes product images and provides a title for the category." PageName="Views.Catalog.CategoryTilePage"/>
-    <Page Name="Catalog Tile Page" Description="In any e-commerce application, showcasing a product with a rating and other details is mandatory. This page showcases a set of products with a short description, price, and user rating. " PageName="Views.Catalog.CatalogTilePage"/>
-    <Page Name="Catalog List Page" Description="Displaying an image with some information is a scenario in many applications, and this page showcases product images with their titles, prices, and discounted prices." PageName="Views.Catalog.CatalogListPage"/>
-    <Page Name="Article List Page" Description="This page displays featured articles with a rotator on top and the remaining stories displayed as a list. Each list card carries the image, title, author name, created date, and estimated time to read the article." PageName="Views.Catalog.ArticleListPage"/>
-    <Page Name="Article Tile Page" Description="This page displays featured articles with a rotator on top and the remaining stories displayed as tiles. Each tile card contains the image, title, author name, created date, and estimated time to read the article." PageName="Views.Catalog.ArticleTilePage"/>
-    <Page Name="Product Home Page" Description="This page displays featured articles with a rotator at the top and the remaining stories displayed as tiles. Each tile card contains an image, title, author’s name, created date, and estimated time to read the article." PageName="Views.Catalog.ProductHomePage"/>
-    <Page Name="Event List Page" IsNew="True" Description="This page shows a list of events in a tabbed view with different sections for displaying the name of the event, the event month and date, and the venue for the event." PageName="Views.Catalog.EventListPage"/>
-    <Page Name="Article Card Page" IsNew="True" Description="This page shows articles as cards containing a picture, title, author, publication date, and time needed to read the article." PageName="Views.Catalog.ArticleCardPage"/>
-    <Page Name="Navigation Travel Page" IsNew="True" Description="This page shows a card view of travel destinations, plus top locations and the best places." PageName="Views.Catalog.NavigationTravelPage"/>
-  </Category>
-
-  <Category Icon="detail.png" IsUpdated="True" Name="Detail" Description="Display detailed and relevant information with random layouts.">
-    <Page Name="Product Detail Page"  Description="This page showcases the complete details of a product with a rotator control to provide different images of the product, available size variants, product description, price, discount, and reviews." PageName="Views.Detail.DetailPage"/>
-    <Page Name="Feedback Detail Page" Description="This page displays the full-page product image and user feedback consisting of a short description and rating." PageName="Views.Detail.FeedbackDetailPage"/>
-    <Page Name="Article Detail Page"  Description="This page displays an article with the title, image, and text." PageName="Views.Detail.ArticleDetailPage"/>
-    <Page Name="Event Detail Page" IsNew="True" Description="This page shows event details, featuring a picture, event name, venue, time, and an option to join the event." PageName="Views.Detail.EventDetailPage"/>
-    <Page Name="Data Table Page" IsNew="True" Description="This page shows a table of all teams playing, their rankings, the number of players, and how many points each team has. It also shows the team win/loss record as well." PageName="Views.Detail.DataTablePage"/>
-    <Page Name="My Address Page" IsNew="True"  Description="This page displays saved address." PageName="Views.Detail.MyAddressPage"/>
-    <Page Name="Room Booking Page" IsNew="True" Description="This page displays resort images in a rotator and allows users to pick dates, the number of guests, and the number of beds in a combo box. The page also allows users to select the price for one night, choose a resort location, and view customer feedback." PageName="Views.Detail.RoomBookingPage"/>
-  </Category>
-  
-  <Category Icon="chat.png" Name="Chat" Description="Exchange messages with users or customers inside your app and manage multiple conversations at once.">
-    <Page Name="Recent Chat Page" Description="This page displays a recent conversation in a chat application. The neatly designed page allows you to access the chat information of a user by tapping the user history." PageName="Views.Chat.RecentChatPage" />
-    <Page Name="Chat Conversation Page" Description="This page displays a recent conversation with a contact in a chat application. The page provides options to send files, images, or any other attachments as well as text messages." PageName="Views.Chat.ChatMessagePage" />
-  </Category>
-  
-   <Category Icon="article.png" Name="Article" Description="Organize blog posts in an easy-to-navigate layout.">
-    <Page Name="Article Detail with Comments Page" Description="This page displays an article with the title, image, and text." PageName="Views.Article.ArticleWithCommentsPage" />
-     <Page Name="Article Parallax Header Page" Description="This page displays an article with a pleasant parallax effect." PageName="Views.Article.ArticleParallaxHeaderPage" />
-     <Page Name="My Article Page" Description="This page displays an article with the title, image, and text with customized layout." PageName="Views.Article.MyArticlePage" />
-   </Category>
-
-  <Category Icon="feedback.png" Name="Reviews and Ratings" Description="Let your users provide ratings and text feedback.">
-    <Page Name="Feedback Page" Description="This page lists the feedback received about a product. The page displays a feedback message with an author name, date, description, and rating. " PageName="Views.Feedback.FeedbackPage"/>
-    <Page Name="Review Page" Description="This page is a feedback form that receives feedback from a user. The page displays a product image and allows the user to update their rating, images, and description about their experience with the product." PageName="Views.Feedback.ReviewPage"/>
-  </Category>
-
-  <Category Icon="contact-us.png" Name="Contact Us" Description="Capture user contact information so you can get in touch with them later.">
-    <Page Name="Contact Us Page" Description="This page displays the location of an organization address in a map and displays the address over it. The page also provides options to review a message from user." PageName="Views.ContactUs.ContactUsPage"/>
-  </Category>
-
-  <Category Icon="about-us.png" Name="About Us" Description="Create a simple About Us page that tells users who you are.">
-    <Page Name="Simple About Us Page" Description="This page displays organization information in a simple way. The organization logo is displayed at the top of the page followed by a short description. " PageName="Views.AboutUs.AboutUsSimplePage" />
-    <Page Name="About Us Page with Cards" Description="This page displays organization information with different cards. Shadow effects on the cards provide an extraordinary look and feel." PageName="Views.AboutUs.AboutUsWithCardsPage" />
-    <Page Name="About Us Page with Scrolling" Description="This page displays organization information with scrolling effects." PageName="Views.AboutUs.AboutUsWithScrollPage" />
-  </Category>
-  
-  <Category Icon="navigation.png" Name="Navigation" IsUpdated="True" Description="Enable your users to navigate between pages or items at a high level.">
-    <Page Name="Bottom Navigation Page" Description="This page displays a navigation interface with icons and labels at the bottom." PageName="Views.Navigation.BottomNavigationPage"/>
-    <Page Name="Navigation List Card Page" Description="This page displays items in a list. Each card carries an image, description, and the overall rating of an item. " PageName="Views.Navigation.NavigationListCardPage"/>
-    <Page Name="Navigation Tile Card Page" Description="This page displays items in a tile layout. Each tile contains an image, description, and the overall rating of an item." PageName="Views.Navigation.NavigationTileCardPage"/>
-    <Page Name="Songs Page"  Description="This page displays items in a tile layout. Each tile contains an image, the name of a song, and its composer." PageName="Views.Navigation.SongsPage"/>
-    <Page Name="FAQs Page" Description="This page displays items in an expander layout. Each item contains a question and answer for a  FAQ section." PageName="Views.Navigation.FAQPage"/>
-    <Page Name="Contacts List" Description="This page displays a list of contacts and avatars." PageName="Views.Navigation.ContactsPage"/>
-    <Page Name="Songs Play List" Description="This page displays items in a tile layout. Each tile contains the name of a song and its composer, and a menu icon." PageName="Views.Navigation.SongsPlayListPage"/>
-    <Page Name="Movies List" Description="This page displays items in a tile layout. Each tile contains the name, year of release, and ratings of a movie." PageName="Views.Navigation.MoviesListPage"/>
-    <Page Name="Names List" Description="This page displays group names as a list." PageName="Views.Navigation.NamesListPage"/>
-    <Page Name="Restaurant Page" Description="This page displays Restaurant lists, items description, Offers and an overall rating." PageName="Views.Navigation.RestaurantPage"/>
-    <Page Name="Icon Names List " Description="The icon names list page displays contact lists with icons and a Next option." PageName="Views.Navigation.IconNamesListPage"/>
-    <Page Name="Suggestion Page" Description="A suggestion page shows profile names, profile IDs, and an option to let viewers follow accounts." PageName="Views.Navigation.SuggestionPage"/>
-    <Page Name="App Usage Page" Description="This page shows the usage of apps, displaying the app names, progress bars, and progress bar values." PageName="Views.Navigation.AppUsagePage"/>
-    <Page Name="Documents List Page" Description="This page shows a list of documents, displaying the name of the document, the size of the document, and the time it was last updated." PageName="Views.Navigation.DocumentsListPage"/>
-    <Page Name="Selectable Name Page " Description="This page shows a selectable list of names with grouping." PageName="Views.Navigation.SelectableNamePage"/>
-    <Page Name="Movies Page " IsNew="True" Description="This page shows a list of movies organized by now showing, trailers, and upcoming releases." PageName="Views.Navigation.MoviesPage"/>
-    <Page Name="File Explorer List Page" IsNew="True" Description="This page displays files, folders, folder names, and information such as date, time, and the number of items in folders." PageName="Views.Navigation.FileExploreListPage"/>
-    <Page Name="File Explorer Grid Page" IsNew="True" Description="This page shows a list of folders in a grid view that includes the name of the folder and the number of items in it." PageName="Views.Navigation.FileExploreGridPage"/>
-  </Category>
-
-  <Category Icon="on-boarding.png" Name="Onboarding" Description="Get your users started with a new app or experience with step-by--step instructions.">
-    <Page Name="Walk-through Page" Description="Guide users through a setup process on color gradient pages" PageName="Views.OnBoarding.OnBoardingAnimationPage"/>    
-  </Category>
-
-  <Category Icon="error-empty.png" Name="Error and Empty" Description="Alert users to errors, empty shopping carts, task lists, item selections, and more.">
-    <Page Name="Empty Cart Page" Description="This page represents a cart that doesn’t have any items with an illustrated empty cart image." PageName="Views.ErrorAndEmpty.EmptyCartPage"/>
-    <Page Name="Location Denied Page" Description="This page represents a location that cannot be accessed with an illustrated location image." PageName="Views.ErrorAndEmpty.LocationDeniedPage"/>
-    <Page Name="No Credits Page" Description="This page represents a user without any credits with an illustrated credit image." PageName="Views.ErrorAndEmpty.NoCreditsPage"/>    
-    <Page Name="No Internet Connection Page" Description="This page represents an unavailable internet connection with an illustrated internet connectivity image." PageName="Views.ErrorAndEmpty.NoInternetConnectionPage"/>
-    <Page Name="No Item Page" Description="This page displays an illustrated empty box image that represents that no items are selected." PageName="Views.ErrorAndEmpty.NoItemPage"/>
-    <Page Name="No Photos Page" Description="This page is presented to users who have not selected any photos." PageName="Views.ErrorAndEmpty.NoPhotosPage"/>
-    <Page Name="No Tasks Page" Description="This page represents that a task is not assigned to the user with an illustration." PageName="Views.ErrorAndEmpty.NoTasksPage"/>
-    <Page Name="Not Enough Credits Page" Description="This page provides information to a user who doesn’t have enough credits to access benefits." PageName="Views.ErrorAndEmpty.NotEnoughCreditPage"/>
-    <Page Name="No Videos Page" Description="This page displays an illustrated video image that represents that no videos are selected." PageName="Views.ErrorAndEmpty.NoVideosPage"/>
-    <Page Name="Payment Failed Page" Description="This page provides an alert to a user that their payment has failed." PageName="Views.ErrorAndEmpty.PaymentFailedPage"/>
-    <Page Name="Something Went Wrong Page" Description="This page is used to show when an error occurs, but the actual error is undetermined." PageName="Views.ErrorAndEmpty.SomethingWentWrongPage"/>
-  </Category>
-  
-  <Category Icon="transaction.png" IsUpdated="True" Name="Transaction" Description="Pages for communicating the status of a purchase through an online shop to the user. This category includes pages for successful payments and payment failures.">
-    <Page Name="Checkout Page" Description="This page provides options to choose between different addresses to deliver a product to and receives payment information from the user. " PageName="Views.Transaction.CheckoutPage"/>
-    <Page Name="Payment Success Page"  Description="This page notifies users about their successful payments." PageName="Views.Transaction.PaymentSuccessPage"/>
-    <Page Name="Payment Failure Page"  Description="This page notifies users about their failed payments." PageName="Views.Transaction.PaymentFailurePage"/>
-    <Page Name="Delivery Page" Description="View delivery information like address and price details" PageName="Views.Transaction.DeliveryPage" Platform="UWP"/>
-    <Page Name="Payment Page" Description="View card and payment details" PageName="Views.Transaction.PaymentPage" Platform="UWP"/>
-    <Page Name="Saved Cards Page" IsNew="True" Description="This page displays saved cards." PageName="Views.Transaction.MyCardsPage" />
-  </Category>
-  
-  <Category Icon="bookmark.png" Name="Bookmark" Description="Interfaces for users to save shopping items, articles, or pages they’d like to return to later. Users can add or remove items they’ve saved as needed.">
-    <Page Name="Wishlist Page" Description="This page displays a list of items that an online shopper has saved to potentially purchase later." PageName="Views.Bookmarks.WishlistPage"/>
-    <Page Name="Cart Page" Description="This page displays a list of products as items added to a cart in a shopping application. The page also allows you to remove items from the shopping cart. " PageName="Views.Bookmarks.CartPage"/>
-    <Page Name="Article Bookmarks Page" Description="This page displays bookmarked articles in a list. Each list card carries the image, title, author name, created date, and estimated time to read the article." PageName="Views.Bookmarks.BookmarksPage"/>
-  </Category>
-
-  <Category Icon="history.png" Name="History" Description="Displays a list of recent actions performed by the user. It can also be used to show the recent transactions in financial apps or recent purchases in shopping apps. ">
-    <Page Name="Transaction History Page" Description="This page displays the list of recent transactions." PageName="Views.History.TransactionHistoryPage"/>
-    <Page Name="My Orders Page" Description="This page displays the list of the user’s recent orders." PageName="Views.History.MyOrdersPage"/>
-  </Category>
-
-  <Category Icon="social.png" IsUpdated="True" Name="Social" Description="Layouts for social media profile pages with different features, such as follower counts, profile pictures, biographical information, and related profiles.">
-    <Page Name="Social Profile with Connections Page" Description="This page displays a social media profile page with links to other profiles that the user may be interested in." PageName="Views.Social.SocialProfileWithConnectionsPage"/>
-    <Page Name="Social Profile with Card Page" Description="This page displays a social media profile with a user’s image, location, and biographical information presented on a card." PageName="Views.Social.SocialProfileWithCardPage"/>
-    <Page Name="Social Profile with Interest Page" Description="This page displays a social media profile with a user’s image, location, interests, and biographical information presented on a card." PageName="Views.Social.SocialProfileWithInterestsPage"/>
-    <Page Name="Social Profile with Message Page" IsNew="True" Description="This page displays a social media profile page with links to other profiles that may be of interest to the user. It also features follow and message buttons, plus profile background images." PageName="Views.Social.SocialProfileWithMessagePage"/>
-  </Category>
-
-  <Category Icon="profile.png" IsUpdated="True" Name="Profile" Description="Display various user profiles related to an article, chat user, and more.">
-    <Page Name="Author Profile Page" Description="This page displays the author’s profile image and name, which can be edited by the author. A night mode switch is present to provide an effective reading display in dark settings." PageName="Views.Profile.ProfilePage"/>
-    <Page Name="Contacts Page" Description="This page displays a contact’s profile in a chat application. It displays the contact’s profile picture, mail ID, contact number, and recent media files that have been shared with that contact. " PageName="Views.Profile.ContactProfilePage" />
-    <Page Name="Chat Profile Page" Description="This page displays the user’s profile in a chat application. It displays their profile picture, mail ID, contact number, notifications, and help options. " PageName="Views.Profile.ChatProfilePage" />
-    <Page Name="Master Page" Description="This page displays an interactive burger menu of article pages. If you are working with a master-details page for articles, this page will be the master page for navigating across the application." PageName="Views.Profile.MasterPage"/>
-    <Page Name="Health Profile Page" IsNew="True" Description="This page shows health details including age, weight, height, calories eaten, heart rate, water consumed, and sleep duration." PageName="Views.Profile.HealthProfilePage"/>
-  </Category>
-
-  <Category Icon="tracking.png" Name="Tracking" Description="Displays various trackings like train status, product delivery status, and more.">
-    <Page Name="Product Delivery Tracking Page" Description="This page displays a live train’s present status with the estimated time of arrival at a specified destination." PageName="Views.Tracking.ProductDeliveryTrackingPage"/>
-  </Category>
-
-  <Category Icon="dashboard.png" Name="Dashboard" IsUpdated="True" Description="A beautifully presented interface relevant to common real-world use cases.">
-    <Page Name="Stock Overview Page" Description="This page displays a dashboard for stock market data visualization." PageName="Views.Dashboard.StockOverviewPage"/>
-    <Page Name="Health Care Page"  Description="This page displays a dashboard for health-care data visualization." PageName="Views.Dashboard.HealthCarePage"/>
-    <Page Name="Daily Calories Report Page" IsNew="True" Description="This page displays a dashboard visualizing a daily calorie report." PageName="Views.Dashboard.DailyCaloriesReportPage"/>
-    <Page Name="Daily Timeline Page" IsNew="True" Description="This page displays a daily dashboard in the form a timeline of event details." PageName="Views.Dashboard.DailyTimelinePage"/>
-    <Page Name="Company History Page" IsNew="True" Description="This page shows a business history dashboard of accomplishments and their year." PageName="Views.Dashboard.CompanyHistoryPage"/>
-    <Page Name="My Wallet Page" IsNew="True" Description="This page shows income and expense charts as well as transaction details such as name, description, amount, and date." PageName="Views.Dashboard.MyWalletPage"/>
-  </Category>
-
-  <Category Icon="setting.png" Name="Settings" Description="Display various types of settings pages.">
-    <Page Name="Setting Page" Description="This page displays a simple settings page that includes account, notification, and support settings." PageName="Views.Settings.SettingPage"/>
-    <Page Name="Help Page"  Description="This page displays a simple help page that provides help with recent orders and other queries." PageName="Views.Settings.HelpPage"/>
-  </Category>
-
-  <Category Icon="notification.png" Name="Notification" IsUpdated="True" Description="Display various types of notification pages.">
-    <Page Name="Task Notification Page" Description="This page displays notifications for tasks, showing descriptions, task IDs, and times." PageName="Views.Notification.TaskNotificationPage"/>
-    <Page Name="Social Notification Page" Description="This page displays social media notifications, containing a list of recent notifications and a list of earlier ones." PageName="Views.Notification.SocialNotificationPage"/>
-    <Page Name="E-commerce Notification Page" IsNew="True" Description="This page displays e-commerce notifications that include description and time." PageName="Views.Notification.ECommerceNotificationPage"/>
-  </Category>
-   
-  <!--<Category Name="Shopping" Description="Simple shopping flow, fetturing catalog detail, cart detail and product checkout.">
-    <Page Name="Login Page" Description="If you want a simple and clean authentication form, then just add this page to your application. Email validation is done within this form." PageName="Views.Shopping.LoginPage"/>
-    <Page Name="Shopping Home Page" Description="Simple shopping flow, fetturing catalog detail, cart detail and product checkout" PageName="Views.Shopping.CatalogListPage"/>
-    <Page Name="Detail Page" Description="View detailed information regarding your orders" PageName="Views.Shopping.DetailPage" />
-    <Page Name="Shopping Cart Page" Description="View items in your cart for purchase. " PageName="Views.Shopping.CartPage" />
-    <Page Name="Checkout page" Description="Purchase items in your cart" PageName="Views.Shopping.CheckoutPage"/>
-    <Page Name="Payment success page" Description="This page notifies the user that their payment was successful." PageName="Views.Shopping.PaymentSuccessPage"/>
-    <Page Name="Walkthrough animation Page" Description="Guide users through a setup process on color gradient pages" PageName="Views.Shopping.OnBoardingAnimationPage"/>
-  </Category>-->
-
+    <Category Icon="log-in.png" Name="فرم" IsUpdated="True"
+              Description="اطلاعات کاربر را برای احراز هویت ، ایجاد نمایه و وارد کردن اطلاعات کارت اعتباری برای درگاه پرداخت آنلاین دریافت کنید.">
+        <Page Name="صفحه ورود ساده" Description="صفحه ورود ساده" PageName="Views.Forms.SimpleLoginPage"/>
+        <Page Name="صفحه ثبت نام ساده" Description="صفحه ثبت نام ساده" PageName="Views.Forms.SimpleSignUpPage"/>
+        <Page Name="تنظیم مجدد صفحه رمز عبور ساده" Description="تنظیم مجدد صفحه رمز عبور ساده"
+              PageName="Views.Forms.SimpleResetPasswordPage"/>
+        <Page Name="صفحه رمز فراموش شده ساده" Description="صفحه رمز فراموش شده ساده"
+              PageName="Views.Forms.SimpleForgotPasswordPage"/>
+        <Page Name="ورود به سیستم با گرادیان" Description="ورود به سیستم با گرادیان" PageName="Views.Forms.LoginPage"/>
+        <Page Name="با گرادیان صفحه را ثبت کنید" Description="با گرادیان صفحه را ثبت کنید"
+              PageName="Views.Forms.SignUpPage"/>
+        <Page Name="تنظیم مجدد صفحه رمز عبور با Gradient" Description="تنظیم مجدد صفحه رمز عبور با Gradient"
+              PageName="Views.Forms.ResetPasswordPage"/>
+        <Page Name="صفحه رمز عبور خود را با گرادیان فراموش کردید"
+              Description="صفحه رمز عبور خود را با گرادیان فراموش کردید" PageName="Views.Forms.ForgotPasswordPage"/>
+        <Page Name="افزودن صفحه تماس" Description="افزودن صفحه تماس" PageName="Views.Forms.AddContactPage"/>
+        <Page Name="صفحه ورود به سیستم" Description="صفحه ورود به سیستم" PageName="Views.Forms.TabbedForm"/>
+        <Page Name="افزودن صفحه کارت" Description="افزودن صفحه کارت" PageName="Views.Forms.AddCardPage"/>
+        <Page Name="افزودن صفحه نمایه" Description="افزودن صفحه نمایه" PageName="Views.Forms.AddProfilePage"/>
+        <Page Name="صفحه فرم ثبت نام مشاغل" Description="صفحه فرم ثبت نام مشاغل"
+              PageName="Views.Forms.BusinessRegistrationFormPage"/>
+        <Page Name="با صفحه آیکون اجتماعی وارد شوید" IsNew="True" Description="با صفحه آیکون اجتماعی وارد شوید"
+              PageName="Views.Forms.LoginWithSocialIconPage"/>
+    </Category>
+    <Category Icon="catalog.png" Name="کاتالوگ" IsUpdated="True"
+              Description="به کاربران اجازه دهید از لیست مواردی که شامل عناوین ، توضیحات مختصر و عکس است ، انتخاب کنند.">
+        <Page Name="صفحه کاشی دسته بندی" Description="صفحه کاشی دسته بندی" PageName="Views.Catalog.CategoryTilePage"/>
+        <Page Name="صفحه کاشی کاتالوگ" Description="صفحه کاشی کاتالوگ" PageName="Views.Catalog.CatalogTilePage"/>
+        <Page Name="صفحه فهرست کاتالوگ" Description="صفحه فهرست کاتالوگ" PageName="Views.Catalog.CatalogListPage"/>
+        <Page Name="صفحه لیست مقاله" Description="صفحه لیست مقاله" PageName="Views.Catalog.ArticleListPage"/>
+        <Page Name="صفحه کاشی مقاله" Description="صفحه کاشی مقاله" PageName="Views.Catalog.ArticleTilePage"/>
+        <Page Name="صفحه اصلی محصول" Description="صفحه اصلی محصول" PageName="Views.Catalog.ProductHomePage"/>
+        <Page Name="صفحه فهرست رویدادها" IsNew="True" Description="صفحه فهرست رویدادها"
+              PageName="Views.Catalog.EventListPage"/>
+        <Page Name="صفحه کارت مقاله" IsNew="True" Description="صفحه کارت مقاله"
+              PageName="Views.Catalog.ArticleCardPage"/>
+        <Page Name="صفحه سفر ناوبری" IsNew="True" Description="صفحه سفر ناوبری"
+              PageName="Views.Catalog.NavigationTravelPage"/>
+    </Category>
+    <Category Icon="detail.png" IsUpdated="True" Name="جزئیات"
+              Description="نمایش اطلاعات دقیق و مرتبط با طرح بندی های تصادفی.">
+        <Page Name="صفحه جزئیات محصول" Description="صفحه جزئیات محصول" PageName="Views.Detail.DetailPage"/>
+        <Page Name="صفحه جزئیات بازخورد" Description="صفحه جزئیات بازخورد" PageName="Views.Detail.FeedbackDetailPage"/>
+        <Page Name="صفحه جزئیات مقاله" Description="صفحه جزئیات مقاله" PageName="Views.Detail.ArticleDetailPage"/>
+        <Page Name="صفحه جزئیات رویداد" IsNew="True" Description="صفحه جزئیات رویداد"
+              PageName="Views.Detail.EventDetailPage"/>
+        <Page Name="صفحه جدول داده ها" IsNew="True" Description="صفحه جدول داده ها"
+              PageName="Views.Detail.DataTablePage"/>
+        <Page Name="صفحه آدرس من" IsNew="True" Description="صفحه آدرس من" PageName="Views.Detail.MyAddressPage"/>
+        <Page Name="صفحه رزرو اتاق" IsNew="True" Description="صفحه رزرو اتاق" PageName="Views.Detail.RoomBookingPage"/>
+    </Category>
+    <Category Icon="chat.png" Name="گپ زدن"
+              Description="در برنامه خود با کاربران یا مشتریان پیام تبادل کرده و چندین مکالمه را همزمان مدیریت کنید.">
+        <Page Name="صفحه چت اخیر" Description="صفحه چت اخیر" PageName="Views.Chat.RecentChatPage"/>
+        <Page Name="صفحه مکالمه چت" Description="صفحه مکالمه چت" PageName="Views.Chat.ChatMessagePage"/>
+    </Category>
+    <Category Icon="article.png" Name="مقاله" Description="پست های وبلاگ را در یک طرح آسان برای هدایت سازماندهی کنید.">
+        <Page Name="جزئیات مقاله با صفحه نظرات" Description="جزئیات مقاله با صفحه نظرات"
+              PageName="Views.Article.ArticleWithCommentsPage"/>
+        <Page Name="صفحه هدر مقاله اختلاف منظر" Description="صفحه هدر مقاله اختلاف منظر"
+              PageName="Views.Article.ArticleParallaxHeaderPage"/>
+        <Page Name="صفحه مقاله من" Description="صفحه مقاله من" PageName="Views.Article.MyArticlePage"/>
+    </Category>
+    <Category Icon="feedback.png" Name="بررسی ها و رتبه بندی ها"
+              Description="به کاربران خود اجازه دهید رتبه بندی و بازخورد متنی را ارائه دهند.">
+        <Page Name="صفحه بازخورد" Description="صفحه بازخورد" PageName="Views.Feedback.FeedbackPage"/>
+        <Page Name="صفحه را مرور کنید" Description="صفحه را مرور کنید" PageName="Views.Feedback.ReviewPage"/>
+    </Category>
+    <Category Icon="contact-us.png" Name="با ما تماس بگیرید"
+              Description="اطلاعات تماس کاربر را بگیرید تا بعداً بتوانید با آنها در ارتباط باشید.">
+        <Page Name="صفحه تماس با ما" Description="صفحه تماس با ما" PageName="Views.ContactUs.ContactUsPage"/>
+    </Category>
+    <Category Icon="about-us.png" Name="درباره ما"
+              Description="یک صفحه ساده درباره ما ایجاد کنید که به کاربران بگویید شما کی هستید.">
+        <Page Name="صفحه ساده درباره ما" Description="صفحه ساده درباره ما" PageName="Views.AboutUs.AboutUsSimplePage"/>
+        <Page Name="درباره ما صفحه با کارت" Description="درباره ما صفحه با کارت"
+              PageName="Views.AboutUs.AboutUsWithCardsPage"/>
+        <Page Name="درباره ما صفحه با پیمایش" Description="درباره ما صفحه با پیمایش"
+              PageName="Views.AboutUs.AboutUsWithScrollPage"/>
+    </Category>
+    <Category Icon="navigation.png" Name="جهت یابی" IsUpdated="True"
+              Description="کاربران خود را قادر به حرکت در بین صفحات یا موارد در سطح بالا کنید.">
+        <Page Name="پایین صفحه پیمایش" Description="پایین صفحه پیمایش"
+              PageName="Views.Navigation.BottomNavigationPage"/>
+        <Page Name="صفحه کارت لیست پیمایش" Description="صفحه کارت لیست پیمایش"
+              PageName="Views.Navigation.NavigationListCardPage"/>
+        <Page Name="صفحه کارت کاشی پیمایش" Description="صفحه کارت کاشی پیمایش"
+              PageName="Views.Navigation.NavigationTileCardPage"/>
+        <Page Name="صفحه آهنگ ها" Description="صفحه آهنگ ها" PageName="Views.Navigation.SongsPage"/>
+        <Page Name="صفحه سQالات متداول" Description="صفحه سQالات متداول" PageName="Views.Navigation.FAQPage"/>
+        <Page Name="لیست مخاطبین" Description="لیست مخاطبین" PageName="Views.Navigation.ContactsPage"/>
+        <Page Name="لیست پخش آهنگ ها" Description="لیست پخش آهنگ ها" PageName="Views.Navigation.SongsPlayListPage"/>
+        <Page Name="لیست فیلم ها" Description="لیست فیلم ها" PageName="Views.Navigation.MoviesListPage"/>
+        <Page Name="لیست اسامی" Description="لیست اسامی" PageName="Views.Navigation.NamesListPage"/>
+        <Page Name="صفحه رستوران" Description="صفحه رستوران" PageName="Views.Navigation.RestaurantPage"/>
+        <Page Name="لیست نام های نماد" Description="لیست نام های نماد" PageName="Views.Navigation.IconNamesListPage"/>
+        <Page Name="صفحه پیشنهاد" Description="صفحه پیشنهاد" PageName="Views.Navigation.SuggestionPage"/>
+        <Page Name="صفحه استفاده از برنامه" Description="صفحه استفاده از برنامه"
+              PageName="Views.Navigation.AppUsagePage"/>
+        <Page Name="صفحه لیست اسناد" Description="صفحه لیست اسناد" PageName="Views.Navigation.DocumentsListPage"/>
+        <Page Name="صفحه نام قابل انتخاب" Description="صفحه نام قابل انتخاب"
+              PageName="Views.Navigation.SelectableNamePage"/>
+        <Page Name="صفحه فیلم ها" IsNew="True" Description="صفحه فیلم ها" PageName="Views.Navigation.MoviesPage"/>
+        <Page Name="صفحه فهرست اکسپلورر پرونده" IsNew="True" Description="صفحه فهرست اکسپلورر پرونده"
+              PageName="Views.Navigation.FileExploreListPage"/>
+        <Page Name="صفحه شبکه اکسپلورر پرونده" IsNew="True" Description="صفحه شبکه اکسپلورر پرونده"
+              PageName="Views.Navigation.FileExploreGridPage"/>
+    </Category>
+    <Category Icon="on-boarding.png" Name="شبانه روزی"
+              Description="کاربران خود را با یک برنامه یا تجربه جدید با دستورالعمل های گام به گام شروع کنید.">
+        <Page Name="صفحه پیاده روی" Description="صفحه پیاده روی" PageName="Views.OnBoarding.OnBoardingAnimationPage"/>
+    </Category>
+    <Category Icon="error-empty.png" Name="خطا و خالی"
+              Description="کاربران را از خطاها ، خالی بودن سبد خرید ، لیست کارها ، انتخاب موارد و موارد دیگر مطلع کنید.">
+        <Page Name="صفحه سبد خرید خالی" Description="صفحه سبد خرید خالی" PageName="Views.ErrorAndEmpty.EmptyCartPage"/>
+        <Page Name="صفحه رد شد" Description="صفحه رد شد" PageName="Views.ErrorAndEmpty.LocationDeniedPage"/>
+        <Page Name="صفحه اعتبار ندارد" Description="صفحه اعتبار ندارد" PageName="Views.ErrorAndEmpty.NoCreditsPage"/>
+        <Page Name="صفحه اتصال به اینترنت وجود ندارد" Description="صفحه اتصال به اینترنت وجود ندارد"
+              PageName="Views.ErrorAndEmpty.NoInternetConnectionPage"/>
+        <Page Name="صفحه موردی وجود ندارد" Description="صفحه موردی وجود ندارد"
+              PageName="Views.ErrorAndEmpty.NoItemPage"/>
+        <Page Name="بدون صفحه عکس" Description="بدون صفحه عکس" PageName="Views.ErrorAndEmpty.NoPhotosPage"/>
+        <Page Name="بدون صفحه وظایف" Description="بدون صفحه وظایف" PageName="Views.ErrorAndEmpty.NoTasksPage"/>
+        <Page Name="صفحه اعتبارات کافی نیست" Description="صفحه اعتبارات کافی نیست"
+              PageName="Views.ErrorAndEmpty.NotEnoughCreditPage"/>
+        <Page Name="صفحه ویدیویی وجود ندارد" Description="صفحه ویدیویی وجود ندارد"
+              PageName="Views.ErrorAndEmpty.NoVideosPage"/>
+        <Page Name="صفحه پرداخت نشد" Description="صفحه پرداخت نشد" PageName="Views.ErrorAndEmpty.PaymentFailedPage"/>
+        <Page Name="صفحه ای اشتباه رفت" Description="صفحه ای اشتباه رفت"
+              PageName="Views.ErrorAndEmpty.SomethingWentWrongPage"/>
+    </Category>
+    <Category Icon="transaction.png" IsUpdated="True" Name="معامله"
+              Description="صفحاتی برای اطلاع از وضعیت خرید از طریق یک فروشگاه آنلاین به کاربر. این گروه شامل صفحاتی برای پرداخت موفق و عدم موفقیت در پرداخت است.">
+        <Page Name="صفحه پرداخت" Description="صفحه پرداخت" PageName="Views.Transaction.CheckoutPage"/>
+        <Page Name="صفحه موفقیت در پرداخت" Description="صفحه موفقیت در پرداخت"
+              PageName="Views.Transaction.PaymentSuccessPage"/>
+        <Page Name="صفحه عدم پرداخت" Description="صفحه عدم پرداخت" PageName="Views.Transaction.PaymentFailurePage"/>
+        <Page Name="صفحه تحویل" Description="صفحه تحویل" PageName="Views.Transaction.DeliveryPage" Platform="UWP"/>
+        <Page Name="صفحه پرداخت" Description="صفحه پرداخت" PageName="Views.Transaction.PaymentPage" Platform="UWP"/>
+        <Page Name="صفحه کارتهای ذخیره شده" IsNew="True" Description="صفحه کارتهای ذخیره شده"
+              PageName="Views.Transaction.MyCardsPage"/>
+    </Category>
+    <Category Icon="bookmark.png" Name="نشانه گذاری"
+              Description="رابط کاربری برای ذخیره موارد ، مقالات یا صفحات خرید که می خواهند بعداً به آنها بازگردند. کاربران می توانند مواردی را که ذخیره کرده اند در صورت لزوم اضافه یا حذف کنند.">
+        <Page Name="صفحه لیست آرزوها" Description="صفحه لیست آرزوها" PageName="Views.Bookmarks.WishlistPage"/>
+        <Page Name="صفحه سبد خرید" Description="صفحه سبد خرید" PageName="Views.Bookmarks.CartPage"/>
+        <Page Name="صفحه نشانک های مقاله" Description="صفحه نشانک های مقاله" PageName="Views.Bookmarks.BookmarksPage"/>
+    </Category>
+    <Category Icon="history.png" Name="تاریخ"
+              Description="لیستی از اقدامات اخیر انجام شده توسط کاربر را نمایش می دهد. همچنین می تواند برای نشان دادن معاملات اخیر در برنامه های مالی یا خریدهای اخیر در برنامه های خرید استفاده شود.">
+        <Page Name="صفحه تاریخ معامله" Description="صفحه تاریخ معامله" PageName="Views.History.TransactionHistoryPage"/>
+        <Page Name="صفحه سفارشات من" Description="صفحه سفارشات من" PageName="Views.History.MyOrdersPage"/>
+    </Category>
+    <Category Icon="social.png" IsUpdated="True" Name="اجتماعی"
+              Description="طرح بندی صفحات پروفایل شبکه های اجتماعی با ویژگی های مختلف ، مانند تعداد دنبال کنندگان ، تصاویر پروفایل ، اطلاعات بیوگرافی و پروفایل های مرتبط.">
+        <Page Name="نمایه اجتماعی با صفحه اتصالات" Description="نمایه اجتماعی با صفحه اتصالات"
+              PageName="Views.Social.SocialProfileWithConnectionsPage"/>
+        <Page Name="نمایه اجتماعی با صفحه کارت" Description="نمایه اجتماعی با صفحه کارت"
+              PageName="Views.Social.SocialProfileWithCardPage"/>
+        <Page Name="نمایه اجتماعی با صفحه علاقه" Description="نمایه اجتماعی با صفحه علاقه"
+              PageName="Views.Social.SocialProfileWithInterestsPage"/>
+        <Page Name="نمایه اجتماعی با صفحه پیام" IsNew="True" Description="نمایه اجتماعی با صفحه پیام"
+              PageName="Views.Social.SocialProfileWithMessagePage"/>
+    </Category>
+    <Category Icon="profile.png" IsUpdated="True" Name="مشخصات"
+              Description="نمایه های مختلف کاربر مربوط به یک مقاله ، کاربر گپ و موارد دیگر را نشان دهید.">
+        <Page Name="صفحه مشخصات نویسنده" Description="صفحه مشخصات نویسنده" PageName="Views.Profile.ProfilePage"/>
+        <Page Name="صفحه مخاطبین" Description="صفحه مخاطبین" PageName="Views.Profile.ContactProfilePage"/>
+        <Page Name="صفحه پروفایل چت" Description="صفحه پروفایل چت" PageName="Views.Profile.ChatProfilePage"/>
+        <Page Name="صفحه اصلی" Description="صفحه اصلی" PageName="Views.Profile.MasterPage"/>
+        <Page Name="صفحه پروفایل سلامتی" IsNew="True" Description="صفحه پروفایل سلامتی"
+              PageName="Views.Profile.HealthProfilePage"/>
+    </Category>
+    <Category Icon="tracking.png" Name="ردیابی"
+              Description="ردیابی های مختلفی مانند وضعیت قطار ، وضعیت تحویل محصول و موارد دیگر را نمایش می دهد.">
+        <Page Name="صفحه پیگیری تحویل محصول" Description="صفحه پیگیری تحویل محصول"
+              PageName="Views.Tracking.ProductDeliveryTrackingPage"/>
+    </Category>
+    <Category Icon="dashboard.png" Name="داشبورد" IsUpdated="True"
+              Description="رابط زیبایی ارائه شده مربوط به موارد استفاده معمول در دنیای واقعی.">
+        <Page Name="صفحه نمای کلی سهام" Description="صفحه نمای کلی سهام" PageName="Views.Dashboard.StockOverviewPage"/>
+        <Page Name="صفحه مراقبت های بهداشتی" Description="صفحه مراقبت های بهداشتی"
+              PageName="Views.Dashboard.HealthCarePage"/>
+        <Page Name="صفحه گزارش کالری روزانه" IsNew="True" Description="صفحه گزارش کالری روزانه"
+              PageName="Views.Dashboard.DailyCaloriesReportPage"/>
+        <Page Name="صفحه جدول زمانی روزانه" IsNew="True" Description="صفحه جدول زمانی روزانه"
+              PageName="Views.Dashboard.DailyTimelinePage"/>
+        <Page Name="صفحه تاریخچه شرکت" IsNew="True" Description="صفحه تاریخچه شرکت"
+              PageName="Views.Dashboard.CompanyHistoryPage"/>
+        <Page Name="صفحه کیف پول من" IsNew="True" Description="صفحه کیف پول من"
+              PageName="Views.Dashboard.MyWalletPage"/>
+    </Category>
+    <Category Icon="setting.png" Name="تنظیمات" Description="انواع مختلف صفحه تنظیمات را نمایش دهید.">
+        <Page Name="تنظیم صفحه" Description="تنظیم صفحه" PageName="Views.Settings.SettingPage"/>
+        <Page Name="صفحه راهنما" Description="صفحه راهنما" PageName="Views.Settings.HelpPage"/>
+    </Category>
+    <Category Icon="notification.png" Name="اطلاع" IsUpdated="True"
+              Description="انواع مختلف صفحات اعلان را نمایش دهید.">
+        <Page Name="صفحه اعلان وظیفه" Description="صفحه اعلان وظیفه"
+              PageName="Views.Notification.TaskNotificationPage"/>
+        <Page Name="صفحه اطلاع رسانی اجتماعی" Description="صفحه اطلاع رسانی اجتماعی"
+              PageName="Views.Notification.SocialNotificationPage"/>
+        <Page Name="صفحه اطلاع رسانی تجارت الکترونیکی" IsNew="True" Description="صفحه اطلاع رسانی تجارت الکترونیکی"
+              PageName="Views.Notification.ECommerceNotificationPage"/>
+    </Category>
 </Samples>

@@ -32,7 +32,7 @@
 
                     <!--  Title  -->
                     <Label
-                        FontFamily="{StaticResource Montserrat-Medium}"
+                        FontFamily="{StaticResource TeshrinMedium}"
                         FontSize="16"
                         HorizontalOptions="CenterAndExpand"
                         Style="{StaticResource LabelStyle}"
@@ -119,7 +119,7 @@
                         Style="{StaticResource SfButtonStyle}"
                         WidthRequest="165">
                         <Label
-                            FontFamily="{StaticResource Montserrat-Medium}"
+                            FontFamily="{StaticResource TeshrinMedium}"
                             FontSize="14"
                             HorizontalOptions="Center"
                             HorizontalTextAlignment="Center"
@@ -150,7 +150,7 @@
                     <control:BorderlessEditor
                         Grid.Row="2"
                         Margin="16,0"
-                        FontFamily="{StaticResource Montserrat-Medium}"
+                        FontFamily="{StaticResource TeshrinMedium}"
                         FontSize="12"
                         HeightRequest="100"
                         HorizontalOptions="FillAndExpand"
@@ -175,7 +175,7 @@
                     HorizontalOptions="{OnIdiom Default=EndAndExpand,
                                                 Phone=CenterAndExpand}"
                     Style="{StaticResource SubmitButtonStyle}"
-                    Text="SUBMIT"
+                    Text="تایید و ارسال"
                     WidthRequest="200" />
             </StackLayout>
 

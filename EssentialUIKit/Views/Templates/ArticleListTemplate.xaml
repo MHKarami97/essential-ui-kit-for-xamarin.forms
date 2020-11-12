@@ -66,7 +66,7 @@
             Grid.Row="1"
             Grid.Column="1"
             Margin="0,8,0,0"
-            FontFamily="{StaticResource Montserrat-Medium}"
+            FontFamily="{StaticResource TeshrinMedium}"
             FontSize="12"
             LineHeight="{OnPlatform Default=-1,
                                     Android=1.5}"
@@ -78,7 +78,7 @@
             Grid.Row="2"
             Grid.Column="1"
             Margin="0,2,0,8"
-            FontFamily="{StaticResource Montserrat-Regular}"
+            FontFamily="{StaticResource TeshrinRegular}"
             FontSize="12"
             LineHeight="{OnPlatform Default=-1,
                                     Android=1.5}"

@@ -30,7 +30,7 @@
                 <!--  Title View  -->
                 <controls:TitleView Title="App Usage" 
                                     FontSize="16" 
-                                    FontFamily="{StaticResource Montserrat-Medium}" 
+                                    FontFamily="{StaticResource TeshrinMedium}" 
                                     BackgroundColor="{DynamicResource Gray-White}">
 
                     <!-- Back button command -->
@@ -116,7 +116,7 @@
                                            HeightRequest="24"
                                            Margin="0,12,0,4"
                                            FontSize="16"
-                                           FontFamily="{StaticResource Montserrat-Medium}"
+                                           FontFamily="{StaticResource TeshrinMedium}"
                                            Text="{Binding AppName}"
                                            TextColor="{DynamicResource Gray-900}" />
 
@@ -137,7 +137,7 @@
                                            Margin="8,0,0,13"
                                            HeightRequest="18"
                                            FontSize="12"
-                                           FontFamily="{StaticResource Montserrat-Medium}"
+                                           FontFamily="{StaticResource TeshrinMedium}"
                                            Text="{Binding ProgressValue}"
                                            TextColor="{DynamicResource Gray-800}" />
 

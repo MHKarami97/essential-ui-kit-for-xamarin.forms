@@ -35,7 +35,7 @@ namespace EssentialUIKit.AppLayout.Models
         {
             get
             {
-                return this.Pages.Count > 1 ? $"{this.Pages.Count.ToString(CultureInfo.InvariantCulture)} Templates" : $"{this.Pages.Count.ToString(CultureInfo.InvariantCulture)} Template";
+                return this.Pages.Count > 1 ? $"{this.Pages.Count.ToString(CultureInfo.InvariantCulture)} صفحه" : $"{this.Pages.Count.ToString(CultureInfo.InvariantCulture)} صفحه";
             }
         }
 

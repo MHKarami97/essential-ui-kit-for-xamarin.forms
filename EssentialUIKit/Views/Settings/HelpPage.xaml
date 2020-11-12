@@ -51,7 +51,7 @@
                             Text="{StaticResource Back}" />
                 <Label
                         Margin="16,0"
-                        FontFamily="{StaticResource Montserrat-Medium}"
+                        FontFamily="{StaticResource TeshrinMedium}"
                         FontSize="16"
                         HorizontalOptions="CenterAndExpand"
                         LineHeight="{OnPlatform Default=-1,

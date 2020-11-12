@@ -25,7 +25,7 @@
 
                 <!--  Title  -->
                 <Label
-                    FontFamily="{StaticResource Montserrat-Medium}"
+                    FontFamily="{StaticResource TeshrinMedium}"
                     FontSize="16"
                     HorizontalOptions="CenterAndExpand"
                     LineHeight="{OnPlatform Android=1.5,

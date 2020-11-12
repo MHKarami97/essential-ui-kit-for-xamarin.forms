@@ -36,7 +36,7 @@
 
             <!--  Profile name  -->
             <Label
-                FontFamily="{StaticResource Montserrat-Medium}"
+                FontFamily="{StaticResource TeshrinMedium}"
                 FontSize="12"
                 HorizontalOptions="Center"
                 HorizontalTextAlignment="Center"
