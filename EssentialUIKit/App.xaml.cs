@@ -26,19 +26,19 @@ namespace EssentialUIKit
         public App()
         {
 #if EnableAppCenterAnalytics
-            // AppCenter.Start(
-            //    $"ios={AppSettings.IOSSecretCode};android={AppSettings.AndroidSecretCode};uwp={AppSettings.UWPSecretCode}",
-            //    typeof(Analytics),
-            //    typeof(Crashes));
+            AppCenter.Start(
+                $"ios={AppSettings.IOSSecretCode};android={AppSettings.AndroidSecretCode};uwp={AppSettings.UWPSecretCode}",
+                typeof(Analytics),
+                typeof(Crashes));
 #endif
 
             InitializeComponent();
 
-            AppSettings.Instance.EnableRTL = true;
-            AppSettings.Instance.SelectedPrimaryColor = 2;
-
             // this.MainPage = new AppShell();
             this.MainPage = new NavigationPage(new HomePage());
+
+            AppSettings.Instance.EnableRTL = true;
+            AppSettings.Instance.SelectedPrimaryColor = 2;
         }
 
         #endregion

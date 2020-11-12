@@ -18,7 +18,7 @@ namespace EssentialUIKit.AppLayout
         public AppShell()
         {
             InitializeComponent();
-
+            
             this.Navigating += this.AppShell_Navigating;
             
             Routing.RegisterRoute("templatepage", typeof(TemplatePage));

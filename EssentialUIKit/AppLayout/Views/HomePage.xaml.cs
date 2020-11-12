@@ -125,7 +125,7 @@ namespace EssentialUIKit.AppLayout.Views
             {
                 Description.Opacity = factor;
                 HeaderImage.Opacity = factor;
-                HeaderText.TranslationX = this.headerDeltaX * (factor - 1);
+                HeaderText.TranslationX = -this.headerDeltaX * (factor - 1);
                 HeaderText.TranslationY = (-1 * scrollValue) + (this.headerDeltaY * (factor - 1));
                 BrandName.Opacity = (scrollValue + 75) / 75;
                 ActionBar.IsVisible = false;

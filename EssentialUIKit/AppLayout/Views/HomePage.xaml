@@ -55,7 +55,7 @@
                 <DataTemplate>
                     <ViewCell>
                         <!--  The image at the left will be rendered with some space.  -->
-                        <Grid Margin="0,16,16,8" RowSpacing="8">
+                        <Grid Margin="16,16,16,8" RowSpacing="8">
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="Auto" />
                                 <RowDefinition Height="Auto" />
@@ -260,10 +260,10 @@
                 Margin="0,0,15,0"
                 Style="{StaticResource ActionBarLabelStyle}"
                 Text="{StaticResource HomePageTitle}"
-                HorizontalOptions="EndAndExpand"
+                HorizontalOptions="StartAndExpand"
                 VerticalOptions="CenterAndExpand" />
 
-            <StackLayout Grid.Row="1" Spacing="0" Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+            <StackLayout Grid.Row="1" Spacing="0" Orientation="Horizontal" HorizontalOptions="EndAndExpand">
                 <Button
                     Text="&#xe753;" FontSize="16"
                     Clicked="GotoCodeViewer"
