@@ -46,17 +46,17 @@ namespace EssentialUIKit
         /// <summary>
         /// Gets the AndroidSecretCode.
         /// </summary>
-        public string AndroidSecretCode => "88dda0e2-da50-466e-9aa5-36fc504d9ed3";
+        public string AndroidSecretCode => "1d01bce1-14b4-4afc-ad7d-d79a3023b0d1";
 
         /// <summary>
         /// Gets the iOSSecretCode.
         /// </summary>
-        public string IOSSecretCode => "b327e367-8f04-4efe-ad7a-85be8c828ec3";
+        public string IOSSecretCode => "8ddc6fec-278a-4772-813c-e3835d108156";
 
         /// <summary>
         /// Gets the UWPSecretCode.
         /// </summary>
-        public string UWPSecretCode => "ca0577ad-4cd2-4258-a35b-465e8f4669d9";
+        public string UWPSecretCode => "d8029dc4-10de-4f5c-81ca-0affeff188a7";
 
         public bool IsDarkTheme
         {

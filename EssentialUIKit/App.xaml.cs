@@ -1,9 +1,10 @@
-﻿using EssentialUIKit.AppLayout.Views;
+﻿#define EnableAppCenterAnalytics
 #if EnableAppCenterAnalytics
 using Microsoft.AppCenter;
 using Microsoft.AppCenter.Analytics;
 using Microsoft.AppCenter.Crashes;
 #endif
+using EssentialUIKit.AppLayout.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Internals;
 using Xamarin.Forms.Xaml;
@@ -33,6 +34,9 @@ namespace EssentialUIKit
 
             InitializeComponent();
 
+            AppSettings.Instance.EnableRTL = true;
+            AppSettings.Instance.SelectedPrimaryColor = 2;
+
             // this.MainPage = new AppShell();
             this.MainPage = new NavigationPage(new HomePage());
         }
@@ -41,7 +45,8 @@ namespace EssentialUIKit
 
         #region Properties
 
-        public static string BaseImageUrl { get; } = "https://cdn.syncfusion.com/essential-ui-kit-for-xamarin.forms/common/uikitimages/";
+        public static string BaseImageUrl { get; } =
+            "https://cdn.syncfusion.com/essential-ui-kit-for-xamarin.forms/common/uikitimages/";
 
         #endregion
 

@@ -1,4 +1,5 @@
-﻿#if EnableAppCenterAnalytics
+﻿#define EnableAppCenterAnalytics
+#if EnableAppCenterAnalytics
 using System.Collections.Generic;
 using Microsoft.AppCenter.Analytics;
 #endif
@@ -19,10 +20,7 @@ namespace EssentialUIKit.AppLayout
             InitializeComponent();
 
             this.Navigating += this.AppShell_Navigating;
-
-            AppSettings.Instance.EnableRTL = true;
-            AppSettings.Instance.SelectedPrimaryColor = 2;
-
+            
             Routing.RegisterRoute("templatepage", typeof(TemplatePage));
             Routing.RegisterRoute("templatehostpage", typeof(TemplateHostPage));
         }
